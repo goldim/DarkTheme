@@ -1,0 +1,36 @@
+{
+ "$schema": "https://qooxdoo.org/schema/Manifest-1-0-0.json",
+  "info" :
+  {
+    "name" : "DarkTheme",
+
+    "summary" : "Dark Theme Contribution",
+    "description" : "A dark theme for qx 6.0 and above.",
+
+    "homepage" : "https://github.com/scro34/DarkTheme",
+
+    "license" : "LGPL/EPL",
+    "authors" : [
+  {
+    "name": "scro34",
+    "email": "schroeder@scro34.de"
+  }
+],
+
+    "version" : "1.0.0"
+  },
+
+  "provides" :
+  {
+    "namespace"   : "darktheme",
+    "encoding"    : "utf-8",
+    "class"       : "source/class",
+    "resource"    : "source/resource",
+    "translation" : "source/translation"
+  },
+
+  "requires": {
+    "@qooxdoo/framework": "^6.0.0-beta-20200807-0828",
+    "@qooxdoo/compiler" : "^1.0.0-beta"
+  }
+}
