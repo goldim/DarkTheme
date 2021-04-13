@@ -20,7 +20,7 @@ This was my first theme contribution back in 2010 when qooxdoo 1.x was state of 
 The «DarkTheme» you are currently looking at is not only a port to qooxdoo 3.0+, but it's also been slightly refurbished. This means that some widgets (CheckBox, RadioButton, Slider, TabView, Window) now come with "modernized" decorators, the general look & feel of the theme, however, should have been preserved.
 
 **Form Controls**
-<img src="darktheme_Form.PNG" alt="Screen shot example">
+<img src="darktheme_Form.png" alt="Screen shot example">
 
 <!-- GETTING STARTED -->
 ## Using the Theme in your Application
