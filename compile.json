@@ -1,5 +1,38 @@
 {
   "$schema": "https://qooxdoo.org/schema/compile-1-0-0.json",
+  "environment": {
+    "qx.icontheme": [
+       "Tango",
+       "Oxygen"
+    ]
+  },
+  "applications": [
+    {
+      "class": "widgetbrowser.Application",
+      "theme": "darktheme.theme.Theme",
+      "name": "widgetbrowser",
+      "title": "WidgetBrowser",
+      "include": [
+        "qx.theme.Simple",
+        "qx.theme.Classic",
+        "widgetbrowser.pages.Tree",
+        "widgetbrowser.pages.List",
+        "widgetbrowser.pages.Table",
+        "widgetbrowser.pages.Form",
+        "widgetbrowser.pages.ToolBar",
+        "widgetbrowser.pages.Window",
+        "widgetbrowser.pages.Tab",
+        "widgetbrowser.pages.Control",
+        "widgetbrowser.pages.Embed",
+        "widgetbrowser.pages.EmbedFrame",
+        "widgetbrowser.pages.Basic",
+        "widgetbrowser.pages.Misc"
+     ],
+     "exclude": [
+        "qx.theme.Modern"
+     ]
+    }
+  ],
   "targets": [
     {
       "type": "source",
@@ -14,13 +47,5 @@
     }
   ],
   "defaultTarget": "source",
-  "locales": ["en"],
-
-  "applications": [
-    {
-      "class": "darktheme.demo.Application",
-      "theme": "darktheme.theme.Theme",
-      "name": "darktheme"
-    }
-  ]
+  "locales": ["en"]
 }

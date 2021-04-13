@@ -1,8 +1,8 @@
 /* ************************************************************************
 
-   Copyright: 2020 
+   Copyright: 2021 
 
-   License: LGPL/EPL
+   License: MIT
 
    Authors: scro34 schroeder@scro34.de
 

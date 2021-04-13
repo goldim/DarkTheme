@@ -1,11 +1,10 @@
 /* ************************************************************************
 
    Copyright:
-     2010-2015 Norbert Schröder
+     2021 Norbert Schröder
 
    License:
-     LGPL: http://www.gnu.org/licenses/lgpl.html
-     EPL: http://www.eclipse.org/org/documents/epl-v10.php
+     MIT
 
    Authors:
      * Norbert Schröder (scro34)
