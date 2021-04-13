@@ -2,7 +2,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/goldim/darktheme">
-    <img src="darktheme.png" alt="Logo" width="277" height="138">
+    <img src="darktheme.png" alt="Logo">
   </a>
 
   <h3 align="center"></h3>
