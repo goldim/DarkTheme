@@ -45,8 +45,7 @@ qx.Theme.define("darktheme.theme.Appearance",
 
     "app-header":
     {
-      style: function(states)
-      {
+      style: function(states) {
         return {
           font: "bold",
           textColor: "text-app-header",
@@ -62,8 +61,7 @@ qx.Theme.define("darktheme.theme.Appearance",
     {
       alias: "splitpane",
       
-      style: function(states)
-      {
+      style: function(states) {
         return {
           padding: 0
         };
@@ -74,12 +72,11 @@ qx.Theme.define("darktheme.theme.Appearance",
     {
       include: "app-header",
       
-      style: function(states)
-      {
+      style: function(states) {
         return {
           font: "headline",
           decorator: "app-logo"
-        }
+        };
       }
     },
     
@@ -93,48 +90,32 @@ qx.Theme.define("darktheme.theme.Appearance",
     {
       alias: "atom",
 
-      style: function(states)
-      {
-        var decorator, textColor;
+      style: function(states) {
+        var decorator; var textColor;
 
-        if (states.checked && states.focused && !states.inner)
-        {
+        if (states.checked && states.focused && !states.inner) {
           decorator = states.disabled ? "button-checked-disabled" : "button-checked";
           textColor = undefined;
-        }
-        else if (states.pressed)
-        {
+        } else if (states.pressed) {
           decorator = states.disabled ? "button-checked-disabled" : "button-checked";
           textColor = "text-hovered";
-        }
-        else if (states.checked)
-        {
+        } else if (states.checked) {
           decorator = states.disabled ? "button-checked-disabled" : 
                       states.invalid ? "button-checked-invalid" : "button-checked";
           textColor = undefined;
-        }
-        else if (states.invalid)
-        {
+        } else if (states.invalid) {
           decorator = "button-invalid";
           textColor = undefined;
-        }
-        else if (states.hovered)
-        {
+        } else if (states.hovered) {
           decorator = "button-hovered";
           textColor = "text-hovered";
-        }
-        else if (states.preselected && states.focused && !states.inner)
-        {
+        } else if (states.preselected && states.focused && !states.inner) {
           decorator = "button-hovered";
           textColor = "text-hovered";
-        }
-        else if (states.preselected)
-        {
+        } else if (states.preselected) {
           decorator = "button-hovered";
           textColor = "text-hovered";
-        }
-        else
-        {
+        } else {
           decorator = states.disabled ? "button-disabled" : "button";
           textColor = undefined;
         }
@@ -142,14 +123,13 @@ qx.Theme.define("darktheme.theme.Appearance",
         return {
           decorator: decorator,
           textColor: textColor
-        }
+        };
       }
     },
 
     "button-frame/image":
     {
-      style: function(states)
-      {
+      style: function(states) {
         return {
           opacity: !states.replacement && states.disabled ? 0.5 : 1
         };
@@ -161,11 +141,10 @@ qx.Theme.define("darktheme.theme.Appearance",
 	  alias: "button-frame",
 	  include: "button-frame",
 	  
-      style: function(states)
-      {
+      style: function(states) {
         return {
-          padding: states.pressed || states.checked 
-                   || (states.checked && states.disabled) ? [4, 4, 0, 6] : [2, 6, 2, 4], 
+          padding: states.pressed || states.checked || 
+                   (states.checked && states.disabled) ? [4, 4, 0, 6] : [2, 6, 2, 4], 
           cursor: states.disabled ? "default" : "pointer",
           center: true
         };
@@ -176,11 +155,10 @@ qx.Theme.define("darktheme.theme.Appearance",
     {
       alias: "atom",
 
-      style: function(states)
-      {
+      style: function(states) {
         return {
-          padding: states.pressed || states.checked 
-                   || (states.checked && states.disabled) ? [4, 2, 2, 4] : [3], 
+          padding: states.pressed || states.checked || 
+                   (states.checked && states.disabled) ? [4, 2, 2, 4] : [3], 
           decorator: states.disabled ? "button-simple-disabled" :
 					 states.pressed || states.checked ? "button-simple-checked" :
                      states.hovered ? "button-simple-hovered" : "button-simple",
@@ -196,8 +174,7 @@ qx.Theme.define("darktheme.theme.Appearance",
       alias: "atom",
       include: "atom",
 
-      style: function(states)
-      {
+      style: function(states) {
         return {
           decorator: states.hovered ? "selected" : undefined,
           textColor: states.hovered ? "text-highlight" : undefined
@@ -210,8 +187,7 @@ qx.Theme.define("darktheme.theme.Appearance",
       include: "button",
       alias: "button",
 
-      style: function(states)
-      {
+      style: function(states) {
         return {
           icon: "decoration/arrows/down-invert.png",
           iconPosition: "right"
@@ -230,11 +206,10 @@ qx.Theme.define("darktheme.theme.Appearance",
     {
       alias: "atom",
 
-      style: function(states)
-      {
+      style: function(states) {
         return {
-          padding: states.pressed || states.checked 
-                   || (states.checked && states.disabled) ? [4, 2, 2, 4] : [3], 
+          padding: states.pressed || states.checked || 
+                   (states.checked && states.disabled) ? [4, 2, 2, 4] : [3], 
           decorator: states.disabled ? "splitbutton-disabled" :
 					 states.pressed || states.checked ? "splitbutton-checked" :
                      states.hovered ? "splitbutton-hovered" : "splitbutton",
@@ -249,8 +224,7 @@ qx.Theme.define("darktheme.theme.Appearance",
       alias: "button",
       include: "button",
 
-      style: function(states)
-      {
+      style: function(states) {
         return {
           icon: "decoration/arrows/down-small-invert.png",
           decorator: states.disabled ? "splitbutton-right-disabled" :
@@ -273,8 +247,7 @@ qx.Theme.define("darktheme.theme.Appearance",
     {
       alias: "atom",
 
-      style: function(states)
-      {
+      style: function(states) {
         var icon = "";
         
         return {
@@ -288,8 +261,7 @@ qx.Theme.define("darktheme.theme.Appearance",
 
     "checkbox/icon": 
     {
-      style: function(states)
-      {
+      style: function(states) {
         var decorator = "checkbox";
         
         if (states.checked) {
@@ -302,7 +274,7 @@ qx.Theme.define("darktheme.theme.Appearance",
           decorator += "-disabled";
         } else if (states.invalid) {
           decorator += "-invalid";
-        } else  if (states.hovered) {
+        } else if (states.hovered) {
           decorator += "-hovered";
         } else if (states.focused) {
           decorator += "-focused";
@@ -313,7 +285,7 @@ qx.Theme.define("darktheme.theme.Appearance",
           cursor: states.hovered && !states.disabled ? "pointer" : "default",
           width: 15,
           height: 15
-        }
+        };
       }
     },
 
@@ -328,8 +300,7 @@ qx.Theme.define("darktheme.theme.Appearance",
       alias: "popup",
       include: "popup",
 
-      style: function(states)
-      {
+      style: function(states) {
         return {
           padding: 5,
           backgroundColor: "background-application"
@@ -339,8 +310,7 @@ qx.Theme.define("darktheme.theme.Appearance",
 
     "colorpopup/field":
     {
-      style: function(states)
-      {
+      style: function(states) {
         return {
           decorator: "main",
           margin: 2,
@@ -357,8 +327,7 @@ qx.Theme.define("darktheme.theme.Appearance",
 
     "colorpopup/current-preview":
     {
-      style: function(state)
-      {
+      style: function(state) {
         return {
           height: 20,
           padding: 4,
@@ -371,8 +340,7 @@ qx.Theme.define("darktheme.theme.Appearance",
 
     "colorpopup/selected-preview":
     {
-      style: function(state)
-      {
+      style: function(state) {
         return {
           height: 20,
           padding: 4,
@@ -388,8 +356,7 @@ qx.Theme.define("darktheme.theme.Appearance",
       alias: "button",
       include: "button",
 
-      style: function(states)
-      {
+      style: function(states) {
         return {
           icon: "icon/16/actions/dialog-ok.png"
         };
@@ -401,8 +368,7 @@ qx.Theme.define("darktheme.theme.Appearance",
       alias: "button",
       include: "button",
 
-      style: function(states)
-      {
+      style: function(states) {
         return {
           icon: "icon/16/actions/dialog-cancel.png"
         };
@@ -423,8 +389,7 @@ qx.Theme.define("darktheme.theme.Appearance",
 
     "colorselector/colorbucket":
     {
-      style: function(states)
-      {
+      style: function(states) {
         return {
           decorator: "main",
           width: 16,
@@ -474,8 +439,7 @@ qx.Theme.define("darktheme.theme.Appearance",
 
     "colorselector/preview-content-old":
     {
-      style: function(states)
-      {
+      style: function(states) {
         return {
           decorator: "main",
           width: 50,
@@ -486,8 +450,7 @@ qx.Theme.define("darktheme.theme.Appearance",
 
     "colorselector/preview-content-new":
     {
-      style: function(states)
-      {
+      style: function(states) {
         return {
           decorator: "main",
           backgroundColor: "background-light",
@@ -500,8 +463,7 @@ qx.Theme.define("darktheme.theme.Appearance",
 
     "colorselector/hue-saturation-field":
     {
-      style: function(states)
-      {
+      style: function(states) {
         return {
           decorator: "main",
           margin: 5
@@ -511,8 +473,7 @@ qx.Theme.define("darktheme.theme.Appearance",
 
     "colorselector/brightness-field":
     {
-      style: function(states)
-      {
+      style: function(states) {
         return {
           decorator: "main",
           margin: [5, 7]
@@ -526,8 +487,7 @@ qx.Theme.define("darktheme.theme.Appearance",
      {
 	  include: "widget",
 	  
-	  style: function(states)
-	  {
+	  style: function(states) {
 		return {
 		  cursor: states.disabled ? "default" : "pointer"
 		};
@@ -540,8 +500,7 @@ qx.Theme.define("darktheme.theme.Appearance",
     {
 	  include: "widget",
 	  
-	  style: function(states)
-	  {
+	  style: function(states) {
 		return {
 		  cursor: states.disabled ? "default" : "pointer"
 		};
@@ -556,8 +515,7 @@ qx.Theme.define("darktheme.theme.Appearance",
 
     "combobox":
     {
-      style: function(states)
-      {
+      style: function(states) {
         var decorator;
 
         var focused = !!states.focused;
@@ -587,8 +545,7 @@ qx.Theme.define("darktheme.theme.Appearance",
       include: "button-simple",
       alias: "button-simple",
 
-      style: function(states)
-      {
+      style: function(states) {
         return {
           icon: "decoration/arrows/down-invert.png",
           cursor: states.hovered && !states.disabled ? "pointer" : "default",
@@ -608,8 +565,7 @@ qx.Theme.define("darktheme.theme.Appearance",
     {
       include: "textfield",
 
-      style: function(states)
-      {
+      style: function(states) {
         return {
           decorator: undefined
         };
@@ -628,8 +584,7 @@ qx.Theme.define("darktheme.theme.Appearance",
 
     "dragdrop-cursor":
     {
-      style: function(states)
-      {
+      style: function(states) {
         var icon = "nodrop";
 
         if (states.copy) {
@@ -650,8 +605,7 @@ qx.Theme.define("darktheme.theme.Appearance",
 
     "image":
     {
-      style: function(states)
-      {
+      style: function(states) {
         return {
           opacity: !states.replacement && states.disabled ? 0.3 : 1
         };
@@ -660,8 +614,7 @@ qx.Theme.define("darktheme.theme.Appearance",
     
     "label":
     {
-      style: function(states)
-      {
+      style: function(states) {
         return {
           textColor: states.disabled ? "text-label-disabled" : undefined
         };
@@ -670,8 +623,7 @@ qx.Theme.define("darktheme.theme.Appearance",
     
     "move-frame":
     {
-      style: function(states)
-      {
+      style: function(states) {
         return {
           decorator: "main"
         };
@@ -680,8 +632,7 @@ qx.Theme.define("darktheme.theme.Appearance",
 
     "popup":
     {
-      style: function(states)
-      {
+      style: function(states) {
         return {
           decorator: "menu",
           textColor: "text-label"
@@ -693,8 +644,7 @@ qx.Theme.define("darktheme.theme.Appearance",
 
     "root":
     {
-      style: function(states)
-      {
+      style: function(states) {
         return {
           decorator: "app-background",
           textColor: "text-label",
@@ -713,8 +663,7 @@ qx.Theme.define("darktheme.theme.Appearance",
 
     "datechooser":
     {
-      style: function(states)
-      {
+      style: function(states) {
         var decorator;
 
         var focused = !!states.focused;
@@ -744,8 +693,7 @@ qx.Theme.define("darktheme.theme.Appearance",
     
     "datechooser/navigation-bar": 
     {
-      style: function(states)
-      {
+      style: function(states) {
         return {
           decorator: "toolbar-light",
           textColor: states.disabled ? "text-disabled" : states.invalid ? "text-invalid" : undefined,
@@ -770,8 +718,7 @@ qx.Theme.define("darktheme.theme.Appearance",
       include: "button-simple",
       alias: "button-simple",
 
-      style: function(states)
-      {
+      style: function(states) {
         var result = {
           padding: [ 2, 4 ],
           show: "icon",
@@ -796,8 +743,7 @@ qx.Theme.define("darktheme.theme.Appearance",
     
     "datechooser/month-year-label":
     {
-      style: function(states)
-      {
+      style: function(states) {
         return {
           font: "bold",
           textAlign: "center",
@@ -808,8 +754,7 @@ qx.Theme.define("darktheme.theme.Appearance",
     
     "datechooser/date-pane":
     {
-      style: function(states)
-      {
+      style: function(states) {
         return {
           textColor: states.disabled ? "text-disabled" : undefined,
           marginTop: 2
@@ -819,8 +764,7 @@ qx.Theme.define("darktheme.theme.Appearance",
     
     "datechooser/day":
     {
-      style: function(states)
-      {
+      style: function(states) {
         return {
           textAlign: "center",
           decorator: states.disabled ? undefined : states.selected ? "selected" : undefined,
@@ -833,8 +777,7 @@ qx.Theme.define("darktheme.theme.Appearance",
     
     "datechooser/week":
     {
-      style: function(states)
-      {
+      style: function(states) {
         return {
           textAlign: "center",
           padding: [ 2, 5 ],
@@ -845,8 +788,7 @@ qx.Theme.define("darktheme.theme.Appearance",
     
     "datechooser/weekday":
     {
-      style: function(states)
-      {
+      style: function(states) {
         return {
           textColor: states.disabled ? "text-disabled" : states.weekend ? "text-inactive" : undefined,
           textAlign: "center",
@@ -869,8 +811,7 @@ qx.Theme.define("darktheme.theme.Appearance",
       alias: "combobox/button",
       include: "combobox/button",
 
-      style: function(states)
-      {
+      style: function(states) {
         return {
           icon: "darktheme/icon/16/office-calendar.png",
           padding: [0, 3],
@@ -886,8 +827,7 @@ qx.Theme.define("darktheme.theme.Appearance",
       alias: "datechooser",
       include: "datechooser",
 
-      style: function(states)
-      {
+      style: function(states) {
         return {
           decorator: undefined
         };
@@ -904,8 +844,7 @@ qx.Theme.define("darktheme.theme.Appearance",
     {
       include: "label",
       
-      style: function() 
-      {
+      style: function() {
         return {
           paddingTop: 4
         };
@@ -920,8 +859,7 @@ qx.Theme.define("darktheme.theme.Appearance",
 
     "groupbox":
     {
-      style: function(states)
-      {
+      style: function(states) {
         return {
           legendPosition : "top"
         };
@@ -930,8 +868,7 @@ qx.Theme.define("darktheme.theme.Appearance",
 
 	"groupbox/frame":
     {
-      style: function(states)
-      {
+      style: function(states) {
         return {
           padding: 6,
           decorator: "group"
@@ -943,8 +880,7 @@ qx.Theme.define("darktheme.theme.Appearance",
     {
       alias: "atom",
 
-      style: function(states)
-      {
+      style: function(states) {
         return {
           padding: [1, 0, 3, 4],
           textColor: states.invalid ? "text-invalid" : "text-title",
@@ -960,8 +896,7 @@ qx.Theme.define("darktheme.theme.Appearance",
       alias: "checkbox",
       include: "checkbox",
 
-      style: function(states)
-      {
+      style: function(states) {
         return {
           padding: [1, 0, 1, 4],
           textColor: states.invalid ? "text-invalid" : "text-title",
@@ -977,8 +912,7 @@ qx.Theme.define("darktheme.theme.Appearance",
       alias: "radiobutton",
       include: "radiobutton",
 
-      style: function(states)
-      {
+      style: function(states) {
         return {
           padding: [1, 0, 1, 4],
           textColor: "text-title",
@@ -997,8 +931,7 @@ qx.Theme.define("darktheme.theme.Appearance",
     {
       include: "widget",
 
-      style: function(states)
-      {
+      style: function(states) {
         return {
           backgroundColor: "background-htmlarea",
           opacity: 0.5
@@ -1014,8 +947,7 @@ qx.Theme.define("darktheme.theme.Appearance",
 
     "iframe":
     {
-      style: function(states)
-      {
+      style: function(states) {
         return {
           decorator: "iframe"
         };
@@ -1032,8 +964,7 @@ qx.Theme.define("darktheme.theme.Appearance",
     {
       alias: "scrollarea",
 
-      style: function(states)
-      {
+      style: function(states) {
         var decorator;
 
         var focused = !!states.focused;
@@ -1063,8 +994,7 @@ qx.Theme.define("darktheme.theme.Appearance",
     
     "listitem":
     {
-      style: function(states)
-      {
+      style: function(states) {
         var decorator;
         if (states.dragover) {
           decorator = states.selected ? "selected-dragover" : "dragover";
@@ -1088,8 +1018,7 @@ qx.Theme.define("darktheme.theme.Appearance",
 
    "menu":
     {
-      style: function(states)
-      {
+      style: function(states) {
         var result =
         {
           decorator: "menu",
@@ -1100,8 +1029,7 @@ qx.Theme.define("darktheme.theme.Appearance",
           placementModeY: states.submenu || states.contextmenu ? "best-fit" : "keep-align"
         };
 
-        if (states.submenu)
-        {
+        if (states.submenu) {
           result.position = "right-top";
           result.offset = [-2, -3];
         }
@@ -1116,10 +1044,9 @@ qx.Theme.define("darktheme.theme.Appearance",
 
     "menu-slidebar-button":
     {
-      style: function(states)
-      {
+      style: function(states) {
         return {
-          decorator: states.hovered  ? "selected" : undefined,
+          decorator: states.hovered ? "selected" : undefined,
           padding: 7,
           center: true
         };
@@ -1130,8 +1057,7 @@ qx.Theme.define("darktheme.theme.Appearance",
     {
       include: "menu-slidebar-button",
 
-      style: function(states)
-      {
+      style: function(states) {
         return {
           icon: "decoration/arrows/up-invert.png"
         };
@@ -1142,8 +1068,7 @@ qx.Theme.define("darktheme.theme.Appearance",
     {
       include: "menu-slidebar-button",
 
-      style: function(states)
-      {
+      style: function(states) {
         return {
           icon: "decoration/arrows/down-invert.png"
         };
@@ -1152,8 +1077,7 @@ qx.Theme.define("darktheme.theme.Appearance",
 
     "menu-separator":
     {
-      style: function(states)
-      {
+      style: function(states) {
         return {
           height: 0,
           decorator: "menu-separator",
@@ -1166,8 +1090,7 @@ qx.Theme.define("darktheme.theme.Appearance",
     {
       alias: "atom",
 
-      style: function(states)
-      {
+      style: function(states) {
         return {
           textColor: "text-button",
           decorator: states.selected ? "menu-button-selected" : undefined,
@@ -1180,8 +1103,7 @@ qx.Theme.define("darktheme.theme.Appearance",
     {
       include: "image",
 
-      style: function(states)
-      {
+      style: function(states) {
         return {
           alignY: "middle"
         };
@@ -1192,8 +1114,7 @@ qx.Theme.define("darktheme.theme.Appearance",
     {
       include: "label",
 
-      style: function(states)
-      {
+      style: function(states) {
         return {
           alignY: "middle",
           padding: 1
@@ -1205,8 +1126,7 @@ qx.Theme.define("darktheme.theme.Appearance",
     {
       include: "label",
 
-      style: function(states)
-      {
+      style: function(states) {
         return {
           alignY: "middle",
           marginLeft: 14,
@@ -1219,8 +1139,7 @@ qx.Theme.define("darktheme.theme.Appearance",
     {
       include: "image",
 
-      style: function(states)
-      {
+      style: function(states) {
         return {
           source: "decoration/arrows/right-invert.png",
           alignY: "middle",
@@ -1234,11 +1153,10 @@ qx.Theme.define("darktheme.theme.Appearance",
       alias: "menu-button",
       include: "menu-button",
 
-      style: function(states)
-      {
+      style: function(states) {
         return {
           icon: states.checked ? "decoration/menu/checkbox-invert.gif" : undefined
-        }
+        };
       }
     },
     
@@ -1247,11 +1165,10 @@ qx.Theme.define("darktheme.theme.Appearance",
       alias: "menu-button",
       include: "menu-button",
 
-      style: function(states)
-      {
+      style: function(states) {
         return {
           icon: states.checked ? "decoration/menu/radiobutton-invert.gif" : undefined
-        }
+        };
       }
     },
 
@@ -1263,8 +1180,7 @@ qx.Theme.define("darktheme.theme.Appearance",
 
     "menubar":
     {
-      style: function(states)
-      {
+      style: function(states) {
         return {
           decorator: "menubar"
         };
@@ -1275,8 +1191,7 @@ qx.Theme.define("darktheme.theme.Appearance",
     {
       alias: "atom",
 
-      style: function(states)
-      {
+      style: function(states) {
         var decorator = (states.pressed || states.hovered) && !states.disabled ? "menubar-selected" : undefined;
 
         return {
@@ -1298,8 +1213,7 @@ qx.Theme.define("darktheme.theme.Appearance",
     {
       alias: "widget",
 
-      style: function(states)
-      {
+      style: function(states) {
         return {
           decorator: "progressive-table-header"
         };
@@ -1309,8 +1223,7 @@ qx.Theme.define("darktheme.theme.Appearance",
     "progressive-table-header-cell":
     {
       alias: "atom",
-      style: function(states)
-      {
+      style: function(states) {
         return {
           minWidth: 40,
           minHeight: 25,
@@ -1328,8 +1241,7 @@ qx.Theme.define("darktheme.theme.Appearance",
     
     "progressbar":
     {
-      style: function(states)
-      {
+      style: function(states) {
         return {
           decorator: "progressbar",
           width: 200,
@@ -1340,8 +1252,7 @@ qx.Theme.define("darktheme.theme.Appearance",
 
     "progressbar/progress":
     {
-      style: function(states)
-      {
+      style: function(states) {
         return {
           decorator: states.disabled ? "progressbar-progress-disabled" : "progressbar-progress"
         };
@@ -1358,8 +1269,7 @@ qx.Theme.define("darktheme.theme.Appearance",
     {
       alias: "atom",
 
-      style: function(states)
-      {
+      style: function(states) {
         return {
           icon: "",
           gap: 8,
@@ -1371,8 +1281,7 @@ qx.Theme.define("darktheme.theme.Appearance",
 
     "radiobutton/icon": 
     {
-      style: function(states)
-      {
+      style: function(states) {
         var cursor = "default";
         var decorator = "radiobutton";
 
@@ -1384,7 +1293,7 @@ qx.Theme.define("darktheme.theme.Appearance",
           decorator += "-disabled";
         } else if (states.invalid) {
           decorator += "-invalid";
-        } else  if (states.hovered && !states.checked) {
+        } else if (states.hovered && !states.checked) {
           decorator += "-hovered";
           cursor = "pointer";
         } else if (states.focused) {
@@ -1408,8 +1317,7 @@ qx.Theme.define("darktheme.theme.Appearance",
 
     "resizer":
     {
-      style: function(states)
-      {
+      style: function(states) {
         return {
           decorator: "pane"
         };
@@ -1424,8 +1332,7 @@ qx.Theme.define("darktheme.theme.Appearance",
 
     "scrollarea":
     {
-      style: function(states)
-      {
+      style: function(states) {
         return {
           // since the scroll container disregards the min size of the scrollbars
           // we have to set the min size of the scroll area to ensure that the
@@ -1438,8 +1345,7 @@ qx.Theme.define("darktheme.theme.Appearance",
 
     "scrollarea/corner":
     {
-      style: function(states)
-      {
+      style: function(states) {
         return {
           backgroundColor: "background-application"
         };
@@ -1458,8 +1364,7 @@ qx.Theme.define("darktheme.theme.Appearance",
 
     "scrollbar":
     {
-      style: function(states)
-      {
+      style: function(states) {
         if (states["native"]) {
           return {};
         }
@@ -1477,8 +1382,7 @@ qx.Theme.define("darktheme.theme.Appearance",
     {
       alias: "slider",
 
-      style: function(states)
-      {
+      style: function(states) {
         return {
           padding: states.horizontal ? [0, 1, 0, 1] : [1, 0, 1, 0]
         };
@@ -1489,8 +1393,7 @@ qx.Theme.define("darktheme.theme.Appearance",
     {
       include: "button-frame",
 
-      style: function(states)
-      {
+      style: function(states) {
         var decorator;
         var margin;
         
@@ -1500,13 +1403,11 @@ qx.Theme.define("darktheme.theme.Appearance",
 		      } else {
 		        decorator = "scrollbar-slider-horizontal";
 		      }
-		    } else {
-		      if (states.hovered) {
+		    } else if (states.hovered) {
             decorator = "scrollbar-slider-vertical-hovered";
 		      } else {
 		        decorator = "scrollbar-slider-vertical";
 		      }
-		    }
         return {
           decorator: decorator,
           margin: states.vertical ? [1, 0] : [0, 1],
@@ -1519,8 +1420,7 @@ qx.Theme.define("darktheme.theme.Appearance",
 	
 	  "scrollbar/button":
     {
-      style: function(states)
-      {
+      style: function(states) {
         var icon = "decoration/scrollbar/";
 		    var decorator;
         
@@ -1551,17 +1451,16 @@ qx.Theme.define("darktheme.theme.Appearance",
             icon: icon,
             minWidth: 20,
             cursor: states.disabled ? "default" : "pointer"
-          }
-        } else {
+          };
+        } 
           return {
 		        decorator: decorator,
             padding: states.up ? [0, 0, 7, 3] : [7, 0, 0, 3],
-            margin: states.up ? [0, 0, -7 , 0] : [-7, 0, 0, 0],
+            margin: states.up ? [0, 0, -7, 0] : [-7, 0, 0, 0],
             icon: icon,
             minHeight: 20,
             cursor: states.disabled ? "default" : "pointer"
-          }
-        }
+          };
       }
     },
     
@@ -1579,8 +1478,7 @@ qx.Theme.define("darktheme.theme.Appearance",
       alias: "button-frame",
       include: "button-frame",
 
-      style: function(states)
-      {
+      style: function(states) {
         return {
           padding: [ 2, 8 ],
           cursor: states.hovered && !states.disabled ? "pointer" : "default"
@@ -1599,8 +1497,7 @@ qx.Theme.define("darktheme.theme.Appearance",
     {
       include: "image",
 
-      style: function(states)
-      {
+      style: function(states) {
         return {
           source: "decoration/arrows/down-small-invert.png",
           paddingLeft: 5
@@ -1617,8 +1514,7 @@ qx.Theme.define("darktheme.theme.Appearance",
 
     "slider":
     {
-      style: function(states)
-      {
+      style: function(states) {
         return {
           decorator: states.horizontal ? "slider-horizontal" : "slider-vertical"
         };
@@ -1627,12 +1523,11 @@ qx.Theme.define("darktheme.theme.Appearance",
 
     "slider/knob":
     {
-      style: function(states)
-      {
+      style: function(states) {
         return {
           decorator: states.disabled ? "slider-knob-disabled" :
-                     states.pressed ?  "slider-knob-pressed" :
-                     states.hovered ?  "slider-knob-hovered" :
+                     states.pressed ? "slider-knob-pressed" :
+                     states.hovered ? "slider-knob-hovered" :
                                        "slider-knob",
           maxHeight: 16,
           maxWidth: 16,
@@ -1656,8 +1551,7 @@ qx.Theme.define("darktheme.theme.Appearance",
       alias: "button-simple",
       include: "button-simple",
 
-      style: function(states)
-      {
+      style: function(states) {
         return {
           padding: 5,
           center : true,
@@ -1673,8 +1567,7 @@ qx.Theme.define("darktheme.theme.Appearance",
       alias: "button-simple",
       include: "button-simple",
 
-      style: function(states)
-      {
+      style: function(states) {
         return {
           padding: 5,
           center : true,
@@ -1693,8 +1586,7 @@ qx.Theme.define("darktheme.theme.Appearance",
 
     "spinner":
     {
-      style: function(states)
-      {
+      style: function(states) {
         var decorator;
 
         var focused = !!states.focused;
@@ -1721,8 +1613,7 @@ qx.Theme.define("darktheme.theme.Appearance",
 
     "spinner/textfield":
     {
-      style: function(states)
-      {
+      style: function(states) {
         return {
           marginRight: 2,
           padding: [1, 4, 1],
@@ -1736,8 +1627,7 @@ qx.Theme.define("darktheme.theme.Appearance",
       alias: "button-simple",
       include: "button-simple",
 
-      style: function(states)
-      {
+      style: function(states) {
         var icon = "decoration/arrows/up-small-invert.png";
         
         return {
@@ -1755,8 +1645,7 @@ qx.Theme.define("darktheme.theme.Appearance",
       alias: "button-simple",
       include: "button-simple",
 
-      style: function(states)
-      {
+      style: function(states) {
         var icon = "decoration/arrows/down-small-invert.png";
         
         return {
@@ -1777,8 +1666,7 @@ qx.Theme.define("darktheme.theme.Appearance",
 
     "splitpane" :
     {
-      style: function(states)
-      {
+      style: function(states) {
         return {
           decorator: "splitpane"
         };
@@ -1787,8 +1675,7 @@ qx.Theme.define("darktheme.theme.Appearance",
 
     "splitpane/splitter" :
     {
-      style: function(states)
-      {
+      style: function(states) {
         return {
           width : states.horizontal ? 3 : undefined,
           height : states.vertical ? 3 : undefined,
@@ -1799,8 +1686,7 @@ qx.Theme.define("darktheme.theme.Appearance",
     
 	"splitpane/splitter/knob" :
     {
-      style: function(states)
-      {
+      style: function(states) {
         return {
           source: states.horizontal ? "decoration/splitpane/knob-horizontal.png" : "decoration/splitpane/knob-vertical.png"
         };
@@ -1809,8 +1695,7 @@ qx.Theme.define("darktheme.theme.Appearance",
     
     "splitpane/slider" :
     {
-      style: function(states)
-      {
+      style: function(states) {
         return {
           width : states.horizontal ? 3 : undefined,
           height : states.vertical ? 3 : undefined,
@@ -1829,8 +1714,7 @@ qx.Theme.define("darktheme.theme.Appearance",
     {
       alias: "widget",
 
-      style: function(states)
-      {
+      style: function(states) {
         return {
           decorator: "table"
         };
@@ -1841,8 +1725,7 @@ qx.Theme.define("darktheme.theme.Appearance",
 
     "table/statusbar":
     {
-      style: function(states)
-      {
+      style: function(states) {
         return {
           decorator: "table-statusbar",
           padding: [ 0, 2 ]
@@ -1854,8 +1737,7 @@ qx.Theme.define("darktheme.theme.Appearance",
     {
       alias: "button-frame",
 
-      style: function(states)
-      {
+      style: function(states) {
         return {
           decorator: "table-header-cell",
           padding: 3,
@@ -1869,8 +1751,7 @@ qx.Theme.define("darktheme.theme.Appearance",
       include: "menu-button",
       alias: "menu-button",
 
-      style: function()
-      {
+      style: function() {
         return {
           icon: "icon/16/actions/view-refresh.png"
         };
@@ -1884,8 +1765,7 @@ qx.Theme.define("darktheme.theme.Appearance",
 
     "table-scroller/header":
     {
-      style: function(states)
-      {
+      style: function(states) {
         return {
           decorator: "table-scroller-header"
         };
@@ -1894,8 +1774,7 @@ qx.Theme.define("darktheme.theme.Appearance",
 
     "table-scroller/pane":
     {
-      style: function(states)
-      {
+      style: function(states) {
         return {
           backgroundColor: "table-pane"
         };
@@ -1904,8 +1783,7 @@ qx.Theme.define("darktheme.theme.Appearance",
 
     "table-scroller/focus-indicator":
     {
-      style: function(states)
-      {
+      style: function(states) {
         return {
           decorator: "table-scroller-focus-indicator"
         };
@@ -1914,8 +1792,7 @@ qx.Theme.define("darktheme.theme.Appearance",
 
     "table-scroller/resize-line":
     {
-      style: function(states)
-      {
+      style: function(states) {
         return {
           backgroundColor: "border-separator",
           width : 2
@@ -1927,24 +1804,22 @@ qx.Theme.define("darktheme.theme.Appearance",
     {
       alias: "atom",
 	  
-      style: function(states)
-      {
+      style: function(states) {
         return {
           minWidth: 13,
           minHeight: 20,
           padding: states.hovered ? [ 3, 4, 3, 4 ] : [ 2, 4, 4, 4 ],
           decorator: states.hovered ? "table-header-cell-selected" : "table-header-cell",
           sortIcon: states.sorted ?
-              (states.sortedAscending ? "decoration/arrows/down-invert.png" : "decoration/arrows/up-invert.png")
-              : undefined
-        }
+              (states.sortedAscending ? "decoration/arrows/down-invert.png" : "decoration/arrows/up-invert.png") :
+              undefined
+        };
       }
     },
     
     "table-header-cell/label":
     {
-      style: function(states)
-      {
+      style: function(states) {
         return {
           minWidth: 0,
           alignY: "middle",
@@ -1955,8 +1830,7 @@ qx.Theme.define("darktheme.theme.Appearance",
 
     "table-header-cell/sort-icon":
     {
-      style: function(states)
-      {
+      style: function(states) {
         return {
           alignY: "middle",
           alignX : "right"
@@ -1966,8 +1840,7 @@ qx.Theme.define("darktheme.theme.Appearance",
 
     "table-header-cell/icon":
     {
-      style: function(states)
-      {
+      style: function(states) {
         return {
           minWidth: 0,
           alignY: "middle",
@@ -1980,8 +1853,7 @@ qx.Theme.define("darktheme.theme.Appearance",
     {
       include: "textfield",
 
-      style: function(states)
-      {
+      style: function(states) {
         return {
           decorator: undefined,
           padding: [ 2, 2 ],
@@ -1995,8 +1867,7 @@ qx.Theme.define("darktheme.theme.Appearance",
       include: "selectbox",
       alias: "selectbox",
 
-      style: function(states)
-      {
+      style: function(states) {
         return {
           padding: [ 0, 2 ],
           backgroundColor: "background-light"
@@ -2009,8 +1880,7 @@ qx.Theme.define("darktheme.theme.Appearance",
       include: "combobox",
       alias: "combobox",
 
-      style: function(states)
-      {
+      style: function(states) {
         return {
           decorator: undefined,
           backgroundColor: "background-light"
@@ -2026,11 +1896,10 @@ qx.Theme.define("darktheme.theme.Appearance",
 
     "tabview":
     {
-      style: function(states)
-      {
+      style: function(states) {
         return {
           contentPadding: 5
-        }
+        };
       }
     },
 
@@ -2038,8 +1907,7 @@ qx.Theme.define("darktheme.theme.Appearance",
     {
       alias: "slidebar",
 
-      style: function(states)
-      {
+      style: function(states) {
         var result =
         {
           marginBottom: states.barTop ? -1 : 0,
@@ -2050,15 +1918,12 @@ qx.Theme.define("darktheme.theme.Appearance",
           paddingRight: 0,
           paddingBottom: 0,
           paddingLeft: 0
-        }
+        };
 
-        if (states.barTop || states.barBottom)
-        {
+        if (states.barTop || states.barBottom) {
           result.paddingLeft = 5;
           result.paddingRight = 7;
-        }
-        else
-        {
+        } else {
           result.paddingTop = 5;
           result.paddingBottom = 7;
         }
@@ -2072,34 +1937,26 @@ qx.Theme.define("darktheme.theme.Appearance",
       include: "slidebar/button-forward",
       alias: "slidebar/button-forward",
 
-      style: function(states)
-      {
-        if (states.barTop)
-        {
+      style: function(states) {
+        if (states.barTop) {
           return {
             marginTop: 4
-          }
-        }
-		else if (states.barBottom)
-        {
+          };
+        } else if (states.barBottom) {
 		  return {
             marginBottom: 4
-          }
-        }
-		else if (states.barLeft)
-        {
+          };
+        } else if (states.barLeft) {
 		  return {
             marginLeft: 4,
 			marginTop: 2
-          }
+          };
         }
-        else
-        {
+        
           return {
             marginRight: 4,
 			marginTop: 2
-          }
-        }
+          };
       }
     },
 
@@ -2108,34 +1965,26 @@ qx.Theme.define("darktheme.theme.Appearance",
       include: "slidebar/button-backward",
       alias: "slidebar/button-backward",
 
-      style: function(states)
-      {
-        if (states.barTop)
-        {
+      style: function(states) {
+        if (states.barTop) {
           return {
             marginTop: 4
-          }
-        }
-		else if (states.barBottom)
-        {
+          };
+        } else if (states.barBottom) {
 		  return {
             marginBottom: 4
-          }
-        }
-		else if (states.barLeft)
-        {
+          };
+        } else if (states.barLeft) {
 		  return {
             marginLeft: 4,
 			marginBottom: 2
-          }
+          };
         }
-        else
-        {
+        
           return {
             marginRight: 4,
 			marginBottom: 2
-          }
-        }
+          };
       }
     },
 
@@ -2143,8 +1992,7 @@ qx.Theme.define("darktheme.theme.Appearance",
 
     "tabview/pane":
     {
-      style: function(states)
-      {
+      style: function(states) {
         return {
 		  decorator: "group",
           minHeight: 100,
@@ -2162,108 +2010,71 @@ qx.Theme.define("darktheme.theme.Appearance",
     {
       alias: "atom",
 
-      style: function(states)
-      {
-        var decorator, padding = 0;
-        var marginTop = 0, marginBottom = 0, marginLeft = 0, marginRight = 0;
+      style: function(states) {
+        var decorator; var 
+padding = 0;
+        var marginTop = 0; var marginBottom = 0; var marginLeft = 0; var 
+marginRight = 0;
 
-        if (states.checked)
-        {
+        if (states.checked) {
 		  padding = [ 4, 12 ];
-          if (states.barTop)
-          {
+          if (states.barTop) {
 		    decorator = "tabview-button-top-checked";
             marginLeft = states.firstTab ? 0 : -4;
             marginRight = states.lastTab ? 0 : -4;
-          }
-          else if (states.barBottom)
-          {
+          } else if (states.barBottom) {
 		    decorator = "tabview-button-bottom-checked";
             marginLeft = states.firstTab ? 0 : -4;
             marginRight = states.lastTab ? 0 : -4;
-          }
-          else if (states.barRight)
-          {
+          } else if (states.barRight) {
 		    decorator = "tabview-button-right-checked";
-          }
-          else
-          {
+          } else {
 		    decorator = "tabview-button-left-checked";
           }
-        }
-		else
-        {
-          if (states.barTop)
-          {
-		    if (states.hovered)
-			{
+        } else
+        if (states.barTop) {
+		    if (states.hovered) {
 		      decorator = "tabview-button-top-hovered";
-			}
-            else if (states.disabled)
-			{
+			} else if (states.disabled) {
 			  decorator = "tabview-button-top-disabled";
-			}			
-			else 
-			{
+			} else {
 		      decorator = "tabview-button-top";
 			}
 		    padding = [ 2, 8 ];
             marginTop = 4;
             marginLeft = states.firstTab ? 4 : 0;
-          }
-          else if (states.barBottom)
-          {
-		    if (states.hovered)
-			{
+          } else if (states.barBottom) {
+		    if (states.hovered) {
 		      decorator = "tabview-button-bottom-hovered";
-			}
-            else if (states.disabled)
-			{
+			} else if (states.disabled) {
 			  decorator = "tabview-button-bottom-disabled";
-			}			
-			else 
-			{
+			} else {
 		      decorator = "tabview-button-bottom";
 			}
 		    padding = [ 2, 8 ];
             marginBottom = 4;
             marginLeft = states.firstTab ? 4 : 0;
-          }
-          else if (states.barRight)
-          {
-		    if (states.hovered)
-			{
+          } else if (states.barRight) {
+		    if (states.hovered) {
 		      decorator = "tabview-button-right-hovered";
-			}
-			else if (states.disabled)
-			{
+			} else if (states.disabled) {
 			  decorator = "tabview-button-right-disabled";
-			}
-			else 
-			{
+			} else {
 		      decorator = "tabview-button-right";
 			}
 		    padding = [ 4, 12 ];
             marginRight = 5;
-          }
-          else
-          {
-		    if (states.hovered)
-			{
+          } else {
+		    if (states.hovered) {
 		      decorator = "tabview-button-left-hovered";
-			}
-            else if (states.disabled)
-			{
+			} else if (states.disabled) {
 			  decorator = "tabview-button-left-disabled";
-			}
-			else 
-			{
+			} else {
 		      decorator = "tabview-button-left";
 			}
 		    padding = [ 4, 12 ];
             marginLeft = 5;
           }
-        }
 		
         return {
           zIndex : states.checked ? 10 : 5,
@@ -2282,8 +2093,7 @@ qx.Theme.define("darktheme.theme.Appearance",
     {
       alias: "label",
 
-      style: function(states)
-      {
+      style: function(states) {
         return {
           padding: [0, 1, 0, 1],
           margin: states.focused ? 0 : 1,
@@ -2296,8 +2106,7 @@ qx.Theme.define("darktheme.theme.Appearance",
     {
       alias: "atom",
       
-      style: function(states)
-      {
+      style: function(states) {
         return {
           icon: states.hovered ? "decoration/tabview/close-button-hovered.png" : "decoration/tabview/close-button.png"
         };
@@ -2320,8 +2129,7 @@ qx.Theme.define("darktheme.theme.Appearance",
 
     "textfield":
     {
-      style: function(states)
-      {
+      style: function(states) {
         var decorator;
 
         var focused = !!states.focused;
@@ -2366,8 +2174,7 @@ qx.Theme.define("darktheme.theme.Appearance",
 
     "toolbar":
     {
-      style: function(states)
-      {
+      style: function(states) {
         return {
           decorator: "toolbar",
           spacing: 2
@@ -2379,8 +2186,7 @@ qx.Theme.define("darktheme.theme.Appearance",
 	
     "toolbar/part/container":
     {
-      style: function(states)
-      {
+      style: function(states) {
         return {
           paddingLeft: 2,
           paddingRight: 2
@@ -2390,8 +2196,7 @@ qx.Theme.define("darktheme.theme.Appearance",
 
 	"toolbar/part/handle":
     {
-      style: function(states)
-      {
+      style: function(states) {
         return {
           source: "decoration/toolbar/toolbar-handle-knob.png",
           marginLeft: 3,
@@ -2404,8 +2209,7 @@ qx.Theme.define("darktheme.theme.Appearance",
     {
       alias: "atom",
 
-      style: function(states)
-      {
+      style: function(states) {
         return {
 		  padding: states.pressed || states.checked ? [6, 4, 4, 6] : [6, 6, 6, 6],
 		  margin: states.pressed || states.checked ? [0] : [0],
@@ -2422,8 +2226,7 @@ qx.Theme.define("darktheme.theme.Appearance",
     {
       alias: "atom",
 
-      style: function(states)
-      {
+      style: function(states) {
         return {
 		  padding: states.pressed || states.checked ? [6, 4, 4, 6] : [6, 6, 6, 6],
 		  margin: states.pressed || states.checked ? [0] : [0],
@@ -2441,8 +2244,7 @@ qx.Theme.define("darktheme.theme.Appearance",
       alias: "toolbar-button",
       include: "toolbar-button",
 
-      style: function(states)
-      {
+      style: function(states) {
         return {
           showArrow: true
         };
@@ -2454,8 +2256,7 @@ qx.Theme.define("darktheme.theme.Appearance",
       alias: "image",
       include: "image",
 
-      style: function(states)
-      {
+      style: function(states) {
         return {
           source: "decoration/arrows/down-small-invert.png"
         };
@@ -2464,8 +2265,7 @@ qx.Theme.define("darktheme.theme.Appearance",
     
     "toolbar-splitbutton":
     {
-      style: function(states)
-      {
+      style: function(states) {
         return {
           marginTop: 2,
           marginBottom: 2
@@ -2475,8 +2275,7 @@ qx.Theme.define("darktheme.theme.Appearance",
 	
 	"toolbar-splitbutton/button":
     {
-      style: function(states)
-      {
+      style: function(states) {
         return {
 		  padding: states.pressed || states.checked ? [6, 5, 4, 6] : [6, 6, 6, 6],
 		  decorator: states.pressed || (states.checked && !states.hovered) || (states.checked && states.disabled) ?
@@ -2489,8 +2288,7 @@ qx.Theme.define("darktheme.theme.Appearance",
 	
 	"toolbar-splitbutton/arrow":
     {
-      style: function(states)
-      {
+      style: function(states) {
         return {
           icon: "decoration/arrows/down-invert.png",
 		  padding: states.pressed || states.checked ? [6, 4, 4, 5] :
@@ -2505,8 +2303,7 @@ qx.Theme.define("darktheme.theme.Appearance",
 	
 	"toolbar-splitbutton-light/button" :
     {
-      style: function(states)
-      {
+      style: function(states) {
         return {
 		  padding: states.pressed || states.checked ? [6, 5, 4, 6] : [6, 6, 6, 6],
 		  decorator: states.pressed || (states.checked && !states.hovered) || (states.checked && states.disabled) ?
@@ -2519,8 +2316,7 @@ qx.Theme.define("darktheme.theme.Appearance",
 	
 	"toolbar-splitbutton-light/arrow" :
     {
-      style: function(states)
-      {
+      style: function(states) {
         return {
           icon: "decoration/arrows/down-invert.png",
 		  padding: states.pressed || states.checked ? [6, 4, 4, 5] :
@@ -2535,8 +2331,7 @@ qx.Theme.define("darktheme.theme.Appearance",
     
     "toolbar-separator" :
     {
-      style: function(states)
-      {
+      style: function(states) {
         return {
           decorator: "toolbar-separator",
           margin: 7
@@ -2554,8 +2349,7 @@ qx.Theme.define("darktheme.theme.Appearance",
     {
       include: "popup",
 
-      style: function(states)
-      {
+      style: function(states) {
         return {
           padding: [ 1, 4, 2, 4 ],
           offset: [ 15, 5, 5, 5 ]
@@ -2567,8 +2361,7 @@ qx.Theme.define("darktheme.theme.Appearance",
 
     "tooltip-error": 
     {
-      style: function(states)
-      {
+      style: function(states) {
         return {
           placeMethod: "widget",
           offset: [-3, 1, 0, 0],
@@ -2585,8 +2378,7 @@ qx.Theme.define("darktheme.theme.Appearance",
     {
       include: "image",
 
-      style: function(states)
-      {
+      style: function(states) {
         return {
           source: states.placementLeft ?
             "decoration/form/tooltip-error-arrow-right.png" : "decoration/form/tooltip-error-arrow-left.png",
@@ -2600,8 +2392,7 @@ qx.Theme.define("darktheme.theme.Appearance",
     {
       include: "popup",
 
-      style: function(states)
-      {
+      style: function(states) {
         return {
           textColor: "text-selected",
           backgroundColor: undefined,
@@ -2624,8 +2415,7 @@ qx.Theme.define("darktheme.theme.Appearance",
 
     "tree-item":
     {
-      style: function(states)
-      {
+      style: function(states) {
         var decorator = states.selected ? "selected" : undefined;
 
         return {
@@ -2641,8 +2431,7 @@ qx.Theme.define("darktheme.theme.Appearance",
     {
       include: "image",
 
-      style: function(states)
-      {
+      style: function(states) {
         return {
           paddingRight: 5
         };
@@ -2653,8 +2442,7 @@ qx.Theme.define("darktheme.theme.Appearance",
     {
 	    include: "label",
 	  
-	    style: function(states)
-      {
+	    style: function(states) {
         return {
           textColor: states.disabled ? "text-disabled" : undefined
         };
@@ -2665,8 +2453,7 @@ qx.Theme.define("darktheme.theme.Appearance",
     {
       include: "image",
 
-      style: function(states)
-      {
+      style: function(states) {
         var icon;
         
         if (states.selected && states.opened) {
@@ -2691,9 +2478,8 @@ qx.Theme.define("darktheme.theme.Appearance",
       include: "tree-item",
       alias: "tree-item",
 
-      style: function(states)
-      {
-        var icon, iconOpened;
+      style: function(states) {
+        var icon; var iconOpened;
         
         if (states.small) {
           icon = states.opened ? "icon/16/places/folder-open.png" : "icon/16/places/folder.png";
@@ -2718,8 +2504,7 @@ qx.Theme.define("darktheme.theme.Appearance",
       include: "tree-item",
       alias: "tree-item",
 
-      style: function(states)
-      {
+      style: function(states) {
         return {
           icon:
             states.small ? "icon/16/mimetypes/office-document.png" :
@@ -2740,8 +2525,7 @@ qx.Theme.define("darktheme.theme.Appearance",
 
     "treevirtual-folder":
     {
-      style: function(states)
-      {
+      style: function(states) {
         return {
           icon: states.opened ?
             "icon/16/places/folder-open.png" : 
@@ -2755,8 +2539,7 @@ qx.Theme.define("darktheme.theme.Appearance",
       include: "treevirtual-folder",
       alias: "treevirtual-folder",
 
-      style: function(states)
-      {
+      style: function(states) {
         return {
           icon: "icon/16/mimetypes/office-document.png"
         };
@@ -2765,8 +2548,7 @@ qx.Theme.define("darktheme.theme.Appearance",
 
     "treevirtual-line":
     {
-      style: function(states)
-      {
+      style: function(states) {
         return {
           icon: "qx/static/blank.gif"
         };
@@ -2775,8 +2557,7 @@ qx.Theme.define("darktheme.theme.Appearance",
 
     "treevirtual-contract":
     {
-      style: function(states)
-      {
+      style: function(states) {
         return {
           icon: "decoration/tree/open.png",
           paddingLeft: 5,
@@ -2787,8 +2568,7 @@ qx.Theme.define("darktheme.theme.Appearance",
 
     "treevirtual-expand":
     {
-      style: function(states)
-      {
+      style: function(states) {
         return {
           icon: "decoration/tree/closed.png",
           paddingLeft: 5,
@@ -2808,8 +2588,7 @@ qx.Theme.define("darktheme.theme.Appearance",
 
     "treevirtual-end":
     {
-      style: function(states)
-      {
+      style: function(states) {
         return {
           icon: "qx/static/blank.gif"
         };
@@ -2818,8 +2597,7 @@ qx.Theme.define("darktheme.theme.Appearance",
 
     "treevirtual-cross":
     {
-      style: function(states)
-      {
+      style: function(states) {
         return {
           icon: "qx/static/blank.gif"
         };
@@ -2842,8 +2620,7 @@ qx.Theme.define("darktheme.theme.Appearance",
       include: "label",
       alias: "label",
 
-      style: function(states)
-      {
+      style: function(states) {
         return {
           padding: 4,
           decorator: "group-item",
@@ -2870,8 +2647,7 @@ qx.Theme.define("darktheme.theme.Appearance",
       include: "tree",
       alias: "tree",
 
-      style: function(states)
-      {
+      style: function(states) {
         return {
           itemHeight: 26
         };
@@ -2885,8 +2661,7 @@ qx.Theme.define("darktheme.theme.Appearance",
 
     "cell":
     {
-      style: function(states)
-      {
+      style: function(states) {
         return {
           textColor: states.selected ? "text-selected" : "text-label",
           padding: [3, 6],
@@ -2900,8 +2675,7 @@ qx.Theme.define("darktheme.theme.Appearance",
     "cell-number":
     {
       include: "cell",
-      style: function(states)
-      {
+      style: function(states) {
         return {
           textAlign: "right"
         };
@@ -2914,8 +2688,7 @@ qx.Theme.define("darktheme.theme.Appearance",
     {
       include: "cell",
       
-      style: function(states)
-      {
+      style: function(states) {
         return {
           iconTrue: "decoration/table/boolean-true.png",
           iconFalse: "decoration/table/boolean-false.png"
@@ -2935,8 +2708,7 @@ qx.Theme.define("darktheme.theme.Appearance",
 
     "window":
     {
-      style: function(states)
-      {
+      style: function(states) {
         return {
           decorator: states.active ? "window-active" : "window-inactive",
           contentPadding: 5,
@@ -2949,8 +2721,7 @@ qx.Theme.define("darktheme.theme.Appearance",
     
     "window/captionbar":
     {
-      style: function(states)
-      {
+      style: function(states) {
         return {
           decorator: states.active ? "window-captionbar-active" : "window-captionbar-inactive",
           textColor: states.active ? "text-active" : "text-disabled",
@@ -2962,8 +2733,7 @@ qx.Theme.define("darktheme.theme.Appearance",
     
     "window/icon":
     {
-      style: function(states)
-      {
+      style: function(states) {
         return {
           margin: [ 5, 0, 3, 6 ]
         };
@@ -2972,8 +2742,7 @@ qx.Theme.define("darktheme.theme.Appearance",
     
     "window/title":
     {
-      style: function(states)
-      {
+      style: function(states) {
         return {
           alignY: "top",
           textColor: "text-caption",
@@ -2988,11 +2757,9 @@ qx.Theme.define("darktheme.theme.Appearance",
     {
       alias: "atom",
 
-      style: function(states)
-      {
+      style: function(states) {
         var icon;
-        switch (true)
-        {
+        switch (true) {
           case states.pressed:
             icon = "decoration/window/close-button-pressed.png";
             break;
@@ -3016,11 +2783,9 @@ qx.Theme.define("darktheme.theme.Appearance",
     {
       alias: "atom",
 
-      style: function(states)
-      {
+      style: function(states) {
         var icon;
-        switch (true)
-        {
+        switch (true) {
           case states.pressed:
             icon = "decoration/window/maximize-button-pressed.png";
             break;
@@ -3044,11 +2809,9 @@ qx.Theme.define("darktheme.theme.Appearance",
     {
       alias: "atom",
 
-      style: function(states)
-      {
+      style: function(states) {
         var icon;
-        switch (true)
-        {
+        switch (true) {
           case states.pressed:
             icon = "decoration/window/minimize-button-pressed.png";
             break;
@@ -3072,11 +2835,9 @@ qx.Theme.define("darktheme.theme.Appearance",
     {
       alias: "atom",
 
-      style: function(states)
-      {
+      style: function(states) {
         var icon;
-        switch (true)
-        {
+        switch (true) {
           case states.pressed:
             icon = "decoration/window/restore-button-pressed.png";
             break;
@@ -3098,8 +2859,7 @@ qx.Theme.define("darktheme.theme.Appearance",
     
     "window/statusbar":
     {
-      style: function(states)
-      {
+      style: function(states) {
         return {
           padding: [ 2, 6 ],
           decorator: "window-statusbar",
@@ -3112,8 +2872,7 @@ qx.Theme.define("darktheme.theme.Appearance",
     
     "window-resize-frame":
     {
-      style: function(states)
-      {
+      style: function(states) {
         return {
           decorator: "main"
         };

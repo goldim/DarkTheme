@@ -14,5 +14,5 @@
  */
 qx.Class.define("darktheme.Button",
 {
-  extend : qx.ui.form.Button,
+  extend : qx.ui.form.Button
 });

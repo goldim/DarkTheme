@@ -24,10 +24,8 @@ qx.Class.define("widgetbrowser.Application",
   extend : qx.application.Standalone,
 
 
-  construct: function()
-  {
+  construct: function() {
     this.base(arguments);
-
   },
 
   members:
@@ -38,8 +36,7 @@ qx.Class.define("widgetbrowser.Application",
 
     __scroll: null,
 
-    main: function()
-    {
+    main: function() {
       this.base(arguments);
 
       // Enable logging in debug variant. editing to see a change
@@ -67,17 +64,14 @@ qx.Class.define("widgetbrowser.Application",
         padding: 15
       });
       scroll.add(this.__tabs);
-
     },
 
-    _createTabView: function()
-    {
+    _createTabView: function() {
       this.__tabs = new widgetbrowser.view.TabView();
       return this.__tabs;
     },
 
-    getScroll: function()
-    {
+    getScroll: function() {
       return this.__scroll;
     }
   }

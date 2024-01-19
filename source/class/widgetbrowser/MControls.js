@@ -22,11 +22,10 @@ qx.Mixin.define("widgetbrowser.MControls",
   members:
   {
 
-    initControls: function(widgets, options)
-    {
+    initControls: function(widgets, options) {
       options = options || {};
 
-      var controls = new qx.ui.container.Composite;
+      var controls = new qx.ui.container.Composite();
       controls.setLayout(new qx.ui.layout.HBox(10));
       this.add(controls);
 
@@ -129,7 +128,6 @@ qx.Mixin.define("widgetbrowser.MControls",
         });
         controls.add(tb);
       }
-
     }
   }
 });

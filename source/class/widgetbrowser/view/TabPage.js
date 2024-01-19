@@ -43,8 +43,7 @@ qx.Class.define("widgetbrowser.view.TabPage",
 
   include: widgetbrowser.MControls,
 
-  construct: function(label, classname, controls)
-  {
+  construct: function(label, classname, controls) {
     this.base(arguments);
 
     this.setLabel(label);

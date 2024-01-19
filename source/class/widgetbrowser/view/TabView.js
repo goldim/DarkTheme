@@ -21,8 +21,7 @@ qx.Class.define("widgetbrowser.view.TabView",
   extend : qx.ui.tabview.TabView,
 
 
-  construct : function()
-  {
+  construct : function() {
     this.base(arguments);
 
     this.init();
@@ -33,7 +32,7 @@ qx.Class.define("widgetbrowser.view.TabView",
   members :
   {
     init: function() {
-      var controls, classname;
+      var controls; var classname;
 
       // Form
       classname = "widgetbrowser.pages.Form";

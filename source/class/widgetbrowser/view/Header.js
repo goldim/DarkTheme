@@ -33,8 +33,7 @@ qx.Class.define("widgetbrowser.view.Header",
   /**
    * @ignore(qxc)
    */
-  construct : function()
-  {
+  construct : function() {
     this.base(arguments);
 
     this.setLayout(new qx.ui.layout.HBox());
@@ -57,7 +56,7 @@ qx.Class.define("widgetbrowser.view.Header",
         var item = new qx.ui.form.ListItem(theme.name);
         item.setUserData("value", theme.name);
         select.add(item);
-        if (! currentThemeItem  && hashTheme && theme.name.match(hashTheme)){
+        if (!currentThemeItem && hashTheme && theme.name.match(hashTheme)) {
           currentThemeItem = item;
         }
       }
@@ -74,7 +73,7 @@ qx.Class.define("widgetbrowser.view.Header",
     });
 
     // Set current theme
-    if (currentThemeItem){
+    if (currentThemeItem) {
       select.setSelection([currentThemeItem]);
       qx.theme.manager.Meta.getInstance().setTheme(
           qx.Theme.getByName(
@@ -85,10 +84,9 @@ qx.Class.define("widgetbrowser.view.Header",
 
     // Finally assemble header
     this.add(title);
-    this.add(new qx.ui.core.Spacer, {flex : 1});
+    this.add(new qx.ui.core.Spacer(), {flex : 1});
     this.add(select);
-    this.add(new qx.ui.core.Spacer, {width: "2%"});
+    this.add(new qx.ui.core.Spacer(), {width: "2%"});
     this.add(version);
-
   }
 });
