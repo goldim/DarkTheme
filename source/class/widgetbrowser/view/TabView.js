@@ -83,12 +83,6 @@ qx.Class.define("widgetbrowser.view.TabView",
       var control = new widgetbrowser.view.TabPage("Control", classname, controls);
       this.add(control);
 
-      // Embed
-      classname = "widgetbrowser.pages.Embed";
-      controls = {};
-      var embed = new widgetbrowser.view.TabPage("Embed", classname, controls);
-      this.add(embed);
-
       // EmbedFrame
       classname = "widgetbrowser.pages.EmbedFrame";
       controls = {};

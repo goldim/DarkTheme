@@ -23,7 +23,6 @@
         "widgetbrowser.pages.Window",
         "widgetbrowser.pages.Tab",
         "widgetbrowser.pages.Control",
-        "widgetbrowser.pages.Embed",
         "widgetbrowser.pages.EmbedFrame",
         "widgetbrowser.pages.Basic",
         "widgetbrowser.pages.Misc"

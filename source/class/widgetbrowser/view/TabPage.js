@@ -32,7 +32,6 @@
  * @use(widgetbrowser.pages.Window)
  * @use(widgetbrowser.pages.Tab)
  * @use(widgetbrowser.pages.Control)
- * @use(widgetbrowser.pages.Embed)
  * @use(widgetbrowser.pages.EmbedFrame)
  * @use(widgetbrowser.pages.Basic)
  * @use(widgetbrowser.pages.Misc)
