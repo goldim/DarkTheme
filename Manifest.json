@@ -1,5 +1,5 @@
 {
-  "$schema": "https://qooxdoo.org/schema/Manifest-1-0-0.json",
+  "$schema": "https://qooxdoo.org/schema/Manifest-2-0-0.json",
   "info": {
     "name": "DarkTheme",
     "summary": "Dark Theme Contribution",
@@ -12,7 +12,7 @@
         "email": "schroeder@scro34.de"
       }
     ],
-    "version": "1.0.1"
+    "version": "2.0.0"
   },
   "provides": {
     "namespace": "darktheme",
@@ -46,7 +46,8 @@
     }
   },
   "requires": {
-    "@qooxdoo/framework": ">=6.0.0 <8.0.0",
-    "@qooxdoo/compiler": "^1.0.0"
+    "@qooxdoo/framework": ">=7.0.0 <8.0.0",
+    "qooxdoo/qxl.formdemo": "^2.0.0",
+    "qooxdoo/qxl.versionlabel": "^2.0.0"
   }
 }
