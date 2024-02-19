@@ -363,7 +363,7 @@ qx.Theme.define("darktheme.theme.Decoration",
       include: "checkbox",
 
       style: {
-        backgroundImage: "decoration/button/button-simple-pressed.png"
+        backgroundImage: "decoration/checkbox/checked.png"
       }
     },
 
@@ -378,7 +378,11 @@ qx.Theme.define("darktheme.theme.Decoration",
 
     "checkbox-checked-hovered":
     {
-      include: "checkbox-checked"
+      include: "checkbox",
+
+      style: {
+        backgroundImage: "decoration/checkbox/checked-hovered.png"
+      }
     },
 
     "checkbox-focused":
@@ -403,7 +407,11 @@ qx.Theme.define("darktheme.theme.Decoration",
 
     "checkbox-checked-disabled":
     {
-      include: "button-simple-checked-disabled"
+      include: "checkbox",
+
+      style: {
+        backgroundImage: "decoration/checkbox/checked-disabled.png"
+      }
     },
 
     "checkbox-invalid":
