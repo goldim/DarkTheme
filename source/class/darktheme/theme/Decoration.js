@@ -1739,7 +1739,11 @@ qx.Theme.define("darktheme.theme.Decoration",
         innerWidthTop: 1,
         innerColorTop: "border-statusbar-top-inner"
       }
-    }
+    },
 
+    // Demo Decorators
+    "theme-demo-title-separator": {
+      include: "radiobutton-checked-hovered"
+    }
   }
 });

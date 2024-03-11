@@ -1,50 +1,45 @@
 {
   "$schema": "https://qooxdoo.org/schema/compile-1-0-0.json",
-  "environment": {
-    "qx.icontheme": [
-       "Tango",
-       "Oxygen"
-    ]
-  },
-  "applications": [
-    {
-      "class": "widgetbrowser.Application",
-      "theme": "darktheme.theme.Theme",
-      "name": "widgetbrowser",
-      "title": "WidgetBrowser",
-      "include": [
-        "qx.theme.Simple",
-        "qx.theme.Classic",
-        "widgetbrowser.pages.Tree",
-        "widgetbrowser.pages.List",
-        "widgetbrowser.pages.Table",
-        "widgetbrowser.pages.Form",
-        "widgetbrowser.pages.ToolBar",
-        "widgetbrowser.pages.Window",
-        "widgetbrowser.pages.Tab",
-        "widgetbrowser.pages.Control",
-        "widgetbrowser.pages.EmbedFrame",
-        "widgetbrowser.pages.Basic",
-        "widgetbrowser.pages.Misc"
-     ],
-     "exclude": [
-        "qx.theme.Modern"
-     ]
-    }
-  ],
   "targets": [
     {
       "type": "source",
+      "fonts": {
+        "local": true,
+        "fontTypes": [
+          "ttf"
+        ]
+      },
       "outputPath": "compiled/source",
       "bundle": {
-        "include": "qx.*"
+        "include": [
+          "qx.*"
+        ]
       }
     },
     {
       "type": "build",
+      "fonts": {
+        "local": true,
+        "fontTypes": [
+          "ttf"
+        ]
+      },
       "outputPath": "compiled/build"
     }
   ],
   "defaultTarget": "source",
-  "locales": ["en"]
+  "locales": [
+    "en"
+  ],
+  "environment": {
+    "qx.icontheme": "Oxygen"
+  },
+  "applications": [
+    {
+      "class": "darktheme.demo.Application",
+      "theme": "darktheme.theme.Theme",
+      "name": "darktheme.demo",
+      "title": "DarkTheme Demo"
+    }
+  ]
 }
