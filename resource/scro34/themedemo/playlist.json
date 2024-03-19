@@ -1,0 +1,886 @@
+{
+  "baseUrl": "http://scro34.de/jukebox/",
+  
+  "playlistData": [
+    {
+      "artist": "Achim Reichel",
+      "album": "Melancholie und Sturmflut (1991)",
+      "albumCover": "Achim Reichel/Melancholie und Sturmflut.jpg",
+      "title": "Kuddel Daddel Du",
+      "file": "Achim Reichel/Kuddel Daddel Du.mp3",
+      "duration": "4:48",
+      "homepage": "http://www.achimreichel.de/",
+      "wikipedia": "http://en.wikipedia.org/wiki/Achim_Reichel",
+      "video": {
+        "title": "Dolles Ding (2015)",
+        "url": "https://www.youtube.com/embed/4F043__LdX8",
+        "width": 640,
+        "height": 360
+      }
+    },
+    {
+      "artist": "Adriano Celentano",
+      "album": "Arrivano Gli Uomini (1996)",
+      "albumCover": "Adriano Celentano/Arrivano Gli Uomini.jpg",
+      "title": "Cosi Come Sei",
+      "file": "Adriano Celentano/Cosi Come Sei.mp3",
+      "duration": "4:49",
+      "homepage": "http://www.clancelentano.it/",
+      "wikipedia": "http://en.wikipedia.org/wiki/Adriano_Celentano",
+      "video": {
+        "title": "Città senza testa (2012)",
+        "url": "https://www.youtube.com/embed/Dp3kwaWdfPI",
+        "width": 640,
+        "height": 360
+      }
+    },
+    {
+      "artist": "Afro Celt Sound System",
+      "album": "Volume 2: Release (1999)",
+      "albumCover": "Afro Celt Sound System/Volume 2.jpg",
+      "title": "Eireann",
+      "file": "Afro Celt Sound System/Eireann.mp3",
+      "duration": "4:49",
+      "homepage": "http://afroceltsoundsystem.com/",
+      "wikipedia": "http://en.wikipedia.org/wiki/Afro_Celt_Sound_System",
+      "video": {
+        "title": "Live @ Bournemouth (2016)",
+        "url": "https://www.youtube.com/embed/dWQ1LbkPi8g",
+        "width": 640,
+        "height": 480
+      }
+    },
+    {
+      "artist": "Aziza Brahim",
+      "album": "Soutak (2014)",
+      "albumCover": "Aziza Brahim/Soutak.jpg",
+      "title": "Lagi",
+      "file": "Aziza Brahim/Lagi.mp3",
+      "duration": "5:52",
+      "homepage": "http://www.azizabrahim.com/",
+      "wikipedia": "http://en.wikipedia.org/wiki/Aziza_Brahim",
+      "video": {
+        "title": "Live at Womex (2015)",
+        "url": "https://www.youtube.com/embed/Kve1cVAZfpA",
+        "width": 640,
+        "height": 360
+      }
+    },
+    {
+      "artist": "Bananafishbones",
+      "album": "A Town Called Seven (2002)",
+      "albumCover": "Bananafishbones/A Town Called Seven.jpg",
+      "title": "Pow Wow",
+      "file": "Bananafishbones/Pow Wow.mp3",
+      "duration": "3:16",
+      "homepage": "http://www.bananafishbones.de/",
+      "wikipedia": "http://de.wikipedia.org/wiki/Bananafishbones",
+      "video": {
+        "title": "Come To Sin (2006)",
+        "url": "https://www.youtube.com/embed/aMINapwaeiw",
+        "width": 640,
+        "height": 480
+      }
+    },
+    {
+      "artist": "Bebe",
+      "album": "Y. (2009)",
+      "albumCover": "Bebe/Y.jpg",
+      "title": "No+llorá",
+      "file": "Bebe/No+llorá.mp3",
+      "duration": "4:08",
+      "homepage": "http://bebeoficial.com/",
+      "wikipedia": "http://en.wikipedia.org/wiki/Bebe_%28singer%29",
+      "video": {
+        "title": "Malo (2004)",
+        "url": "https://www.youtube.com/embed/90GqAf3zJ8s",
+        "width": 640,
+        "height": 480
+      }
+    },
+    {
+      "artist": "Can",
+      "album": "Ege Bamyasi (1972)",
+      "albumCover": "Can/Ege_Bamyasi.jpg",
+      "title": "One More Night",
+      "file": "Can/One More Night.mp3",
+      "duration": "5:32",
+      "homepage": "http://www.spoonrecords.com",
+      "wikipedia": "http://en.wikipedia.org/wiki/Can_%28band%29",
+      "video": {
+        "title": "Shikaru Maru Ten (1972)",
+        "url": "https://www.youtube.com/embed/aIJamrpOf8A",
+        "width": 640,
+        "height": 480
+      }
+    },
+    {
+      "artist": "Corvus Corax",
+      "album": "Seikilos (2002)",
+      "albumCover": "Corvus Corax/Seikilos.jpg",
+      "title": "Ballade de Mercy",
+      "file": "Corvus Corax/Ballade de Mercy.mp3",
+      "duration": "3:54",
+      "homepage": "http://www.corvuscorax.de",
+      "wikipedia": "http://en.wikipedia.org/wiki/Corvus_Corax_%28band%29",
+      "video": {
+        "title": "Live @ Feuertanz Festival (2009)",
+        "url": "https://www.youtube.com/embed/Py_6iKYKqHI",
+        "width": 640,
+        "height": 480
+      }
+    },
+    {
+      "artist": "DDT",
+      "album": "Propavshij Bez Vesti (2005)",
+      "albumCover": "DDT/Propavshij_Bez_Vesti.jpg",
+      "title": "Mama, Eto Rock 'n' Roll",
+      "file": "DDT/Mama_Eto_Rock_n_Roll.mp3",
+      "duration": "5:06",
+      "homepage": "http://www.ddt.ru",
+      "wikipedia": "http://en.wikipedia.org/wiki/DDT_%28band%29",
+      "video": {
+        "title": "Live in Moscow (2005)",
+        "url": "https://www.youtube.com/embed/vVRd6z9nvlo",
+        "width": 640,
+        "height": 480
+      }
+    },
+    {
+      "artist": "Dhafer Youssef",
+      "album": "Divine Shadows (2006)",
+      "albumCover": "Dhafer Youssef/Divine_Shadows.jpg",
+      "title": "Chromatic Shadows",
+      "file": "Dhafer Youssef/Chromatic_Shadows.mp3",
+      "duration": "6:25",
+      "homepage": "http://dhaferyoussef.com",
+      "wikipedia": "http://en.wikipedia.org/wiki/Dhafer_Youssef",
+      "video": {
+        "title": "Jazz San Javier (2010)",
+        "url": "https://www.youtube.com/embed/tce_SMf4XJc",
+        "width": 640,
+        "height": 360
+      }
+    },
+    {
+      "artist": "Dom DufF",
+      "album": "LAGAN (2006)",
+      "albumCover": "Dom Duff/Lagan.jpg",
+      "title": "Kig Ha Fars",
+      "file": "Dom Duff/Kig_Ha_Fars.mp3",
+      "duration": "3:14",
+      "homepage": "http://www.domduff.com/news.html",
+      "wikipedia": "http://en.wikipedia.org/wiki/Dom_Duff",
+      "video": {
+        "title": "with Alan Stivell at Yaouank (2009)",
+        "url": "https://www.youtube.com/embed/Izh2_KlqeHw",
+        "width": 640,
+        "height": 360
+      }
+    },
+    {
+      "artist": "Esperanza Spalding",
+      "album": "Emily's D+Evolution (2016)",
+      "albumCover": "Esperanza Spalding/Emily.jpg",
+      "title": "Ebony and Ivy",
+      "file": "Esperanza Spalding/Ebony and Ivy.mp3",
+      "duration": "4:18",
+      "homepage": "http://www.esperanzaspalding.com",
+      "wikipedia": "http://en.wikipedia.org/wiki/Esperanza_Spalding",
+      "video": {
+        "title": "Avo Session (2012)",
+        "url": "https://www.youtube.com/embed/aSBc_08GrA8",
+        "width": 640,
+        "height": 480
+      }
+    },
+    {
+      "artist": "Faun",
+      "album": "Eden (2011)",
+      "albumCover": "Faun/Eden.jpg",
+      "title": "Pearl",
+      "file": "Faun/Pearl.mp3",
+      "duration": "5:04",
+      "homepage": "http://www.faune.de/",
+      "wikipedia": "http://en.wikipedia.org/wiki/Faun_%28band%29",
+      "video": {
+        "title": "Totem Tour (2007)",
+        "url": "https://www.youtube.com/embed/ITv0jCsMm1s",
+        "width": 640,
+        "height": 360
+      }
+    },
+    {
+      "artist": "Fehlfarben",
+      "album": "Monarchie und Alltag (1980)",
+      "albumCover": "Fehlfarben/Monarchie und Alltag.jpg",
+      "title": "Militürk",
+      "file": "Fehlfarben/Militürk.mp3",
+      "duration": "5:22",
+      "homepage": "http://www.fehlfarben.com/",
+      "wikipedia": "http://en.wikipedia.org/wiki/Fehlfarben",
+      "video": {
+        "title": "Ruhrpott Rodeo (2017)",
+        "url": "https://www.youtube.com/embed/qUfNn5h43Ws",
+        "width": 640,
+        "height": 480
+      }
+    },
+    {
+      "artist": "Frank Zappa",
+      "album": "Freak Out (1966)",
+      "albumCover": "Frank Zappa/Freak Out.jpg",
+      "title": "Trouble Every Day",
+      "file": "Frank Zappa/Trouble Every Day.mp3",
+      "duration": "5:50",
+      "homepage": "http://www.zappa.com/",
+      "wikipedia": "http://en.wikipedia.org/wiki/Frank_Zappa",
+      "video": {
+        "title": "Muffin Man (1977)",
+        "url": "https://www.youtube.com/embed/HGV3yV9q4Q4",
+        "width": 640,
+        "height": 480
+      }
+    },
+    {
+      "artist": "Garmarna",
+      "album": "6 (2016)",
+      "albumCover": "Garmarna/6.jpg",
+      "title": "Över gränsen",
+      "file": "Garmarna/Över gränsen.mp3",
+      "duration": "3:28",
+      "homepage": "http://garmarna2015.com/",
+      "wikipedia": "http://en.wikipedia.org/wiki/Garmarna",
+      "video": {
+        "title": "Gamen (2009)",
+        "url": "https://www.youtube.com/embed/fM7dGQ9NP_8",
+        "width": 640,
+        "height": 360
+      }
+    },
+    {
+      "artist": "Gentle Giant",
+      "album": "Octopus (1972)",
+      "albumCover": "Gentle Giant/Octopus.jpg",
+      "title": "The Advent of Panurge",
+      "file": "Gentle Giant/The Advent of Panurge.mp3",
+      "duration": "4:41",
+      "homepage": "http://www.blazemonger.com/GG/Gentle_Giant_Home_Page",
+      "wikipedia": "http://en.wikipedia.org/wiki/Gentle_Giant",
+      "video": {
+        "title": "Live in London (1978)",
+        "url": "https://www.youtube.com/embed/UM-yGcpaY_4",
+        "width": 640,
+        "height": 480
+      }
+    },
+    {
+      "artist": "Georg Danzer",
+      "album": "Ruhe vor dem Sturm (1981)",
+      "albumCover": "Georg Danzer/Ruhe vor dem Sturm.jpg",
+      "title": "Mein Leb'n",
+      "file": "Georg Danzer/Mein Leb'n.mp3",
+      "duration": "6:10",
+      "homepage": "http://www.georgdanzer.at/",
+      "wikipedia": "http://en.wikipedia.org/wiki/Georg_Danzer",
+      "video": {
+        "title": "Live in Wien Orpheum (2002)",
+        "url": "https://www.youtube.com/embed/j2c7I28U0AU",
+        "width": 640,
+        "height": 360
+      }
+    },
+    {
+      "artist": "Gianna Nannini",
+      "album": "Scandalo (1990)",
+      "albumCover": "Gianna Nannini/Scandalo.jpg",
+      "title": "Madonna - Welt",
+      "file": "Gianna Nannini/Madonna - Welt.mp3",
+      "duration": "4:23",
+      "homepage": "http://www.giannanannini.com/",
+      "wikipedia": "http://en.wikipedia.org/wiki/Gianna_Nannini",
+      "video": {
+        "title": "Live @ Rockpalast (1995)",
+        "url": "https://www.youtube.com/embed/WwoTL3puaFM",
+        "width": 640,
+        "height": 480
+      }
+    },
+    {
+      "artist": "Haindling",
+      "album": "Weiss (1995)",
+      "albumCover": "Haindling/Weiss.jpg",
+      "title": "Mama",
+      "file": "Haindling/Mama.mp3",
+      "duration": "3:57",
+      "homepage": "http://www.haindling.de/",
+      "wikipedia": "http://en.wikipedia.org/wiki/Haindling",
+      "video": {
+        "title": "Holzscheitl Rap (2011)",
+        "url": "https://www.youtube.com/embed/lAoz7l-YvhM",
+        "width": 640,
+        "height": 360
+      }
+    },
+    {
+      "artist": "Hubert von Goisern",
+      "album": "Haut und Haar (2009)",
+      "albumCover": "Hubert von Goisern/Haut und Haar.jpg",
+      "title": "Auseinandertreiben",
+      "file": "Hubert von Goisern/Auseinandertreiben.mp3",
+      "duration": "7:54",
+      "homepage": "http://www.hubertvongoisern.com/",
+      "wikipedia": "http://en.wikipedia.org/wiki/Hubert_von_Goisern",
+      "video": {
+        "title": "Brenna tuats guat (2011)",
+        "url": "https://www.youtube.com/embed/l-XYBJOKNMg",
+        "width": 640,
+        "height": 480
+      }
+    },
+    {
+      "artist": "Inna Zhelannaya",
+      "album": "Zima (2008)",
+      "albumCover": "Inna Zhelannaya/Winter.png",
+      "title": "Alyonushka",
+      "file": "Inna Zhelannaya/Alyonushka.mp3",
+      "duration": "7:25",
+      "homepage": "http://www.inasound.ru/en/",
+      "wikipedia": "http://en.wikipedia.org/wiki/Inna_Zhelannaya",
+      "video": {
+        "title": "Live in Tele Club (2010)",
+        "url": "https://www.youtube.com/embed/ngJaYlsH3l0",
+        "width": 640,
+        "height": 360
+      }
+    },
+    {
+      "artist": "Ivan Kupala",
+      "album": "Radio Nagra (2002)",
+      "albumCover": "Ivan Kupala/Radio Nagra.jpg",
+      "title": "Pcheli / Veliki Den",
+      "file": "Ivan Kupala/Pcheli Veliki Den.mp3",
+      "duration": "5:58",
+      "homepage": "http://www.kupala.ru/",
+      "wikipedia": "http://en.wikipedia.org/wiki/Ivan_Kupala_%28band%29",
+      "video": {
+        "title": "Rosy (2002)",
+        "url": "https://www.youtube.com/embed/XBIA9fkq8-U",
+        "width": 640,
+        "height": 480
+      }
+    },
+    {
+      "artist": "Joan Armatrading",
+      "album": "How Cruel (1979)",
+      "albumCover": "Joan Armatrading/How Cruel.jpg",
+      "title": "I Really Must Be Going",
+      "file": "Joan Armatrading/I Really Must Be Going.mp3",
+      "duration": "4:30",
+      "homepage": "http://www.joanarmatrading.com/",
+      "wikipedia": "http://en.wikipedia.org/wiki/Joan_Armatrading",
+      "video": {
+        "title": "Steppin' Out @ Rockpalast (1979)",
+        "url": "https://www.youtube.com/embed/GFyPHKrimjo",
+        "width": 640,
+        "height": 480
+      }
+    },
+    {
+      "artist": "Joe Satriani",
+      "album": "The Extremist (1992)",
+      "albumCover": "Joe Satriani/The_Extremist.jpg",
+      "title": "Friends",
+      "file": "Joe Satriani/Friends.mp3",
+      "duration": "2:49",
+      "homepage": "http://www.satriani.com",
+      "wikipedia": "http://en.wikipedia.org/wiki/Joe_Satriani",
+      "video": {
+        "title": "Live @ Montreux (1988)",
+        "url": "https://www.youtube.com/embed/AkfFfqTkneY",
+        "width": 640,
+        "height": 480
+      }
+    },
+    {
+      "artist": "Joe Strummer",
+      "album": "Global a Go-Go (2001)",
+      "albumCover": "Joe Strummer/Global a Go-Go.jpg",
+      "title": "Cool 'n' Out",
+      "file": "Joe Strummer/Cool 'n' Out.mp3",
+      "duration": "4:20",
+      "homepage": "",
+      "wikipedia": "http://en.wikipedia.org/wiki/Joe_Strummer",
+      "video": {
+        "title": "Bhindi Bhagee",
+        "url": "https://www.youtube.com/embed/SZiPCJrd0_4",
+        "width": 640,
+        "height": 480
+      }
+    },
+    {
+      "artist": "L'Ham de Foc",
+      "album": "Cor de Porc (2005)",
+      "albumCover": "L'Ham de Foc/Cor_de_Porc.jpg",
+      "title": "Pandero",
+      "file": "L'Ham de Foc/Pandero.mp3",
+      "duration": "4:06",
+      "homepage": "http://www.efrenlopez.net/web_angles/angproj-lham.htm",
+      "wikipedia": "http://de.wikipedia.org/wiki/L%E2%80%99Ham_de_Foc",
+      "video": {
+        "title": "Encara",
+        "url": "https://www.youtube.com/embed/TzKY9wVELxE",
+        "width": 640,
+        "height": 480
+      }
+    },
+    {
+      "artist": "L.S.E.",
+      "album": "Ruhm kennt keine Gnade (1994)",
+      "albumCover": "L.S.E./Ruhm kennt keine Gnade.jpg",
+      "title": "Schläch Wedder",
+      "file": "L.S.E./Schläch Wedder.mp3",
+      "duration": "3:48",
+      "homepage": "",
+      "wikipedia": "http://de.wikipedia.org/wiki/L.S.E.",
+      "video": {
+        "title": "Live in Cologne (2012)",
+        "url": "https://www.youtube.com/embed/vF3UK2irReg",
+        "width": 640,
+        "height": 480
+      }
+    },
+    {
+      "artist": "Led Zeppelin",
+      "album": "Presence (1976)",
+      "albumCover": "Led Zeppelin/Presence.jpg",
+      "title": "Achilles Last Stand",
+      "file": "Led Zeppelin/Achilles Last Stand.mp3",
+      "duration": "10:29",
+      "homepage": "http://www.ledzeppelin.com/",
+      "wikipedia": "http://en.wikipedia.org/wiki/Led_Zeppelin",
+      "video": {
+        "title": "Live in New York City (1973)",
+        "url": "https://www.youtube.com/embed/ZQgYn23Xvck",
+        "width": 640,
+        "height": 360
+      }
+    },
+    {
+      "artist": "Lyapis Trubetskoy",
+      "album": "Rabkor (2012)",
+      "albumCover": "Lyapis Trubetskoy/Rabkor.jpg",
+      "title": "Lyapis Crew",
+      "file": "Lyapis Trubetskoy/Lyapis Crew.mp3",
+      "duration": "3:05",
+      "homepage": "http://www.lyapis.com/",
+      "wikipedia": "http://en.wikipedia.org/wiki/Lyapis_Trubetskoy",
+      "video": {
+        "title": "Rabkor Live (2012)",
+        "url": "https://www.youtube.com/embed/b0bBeCKOURc",
+        "width": 640,
+        "height": 480
+      }
+    },
+    {
+      "artist": "Mari Boine",
+      "album": "Eallin (1996)",
+      "albumCover": "Mari Boine/Eallin.jpg",
+      "title": "Modjás Katrin",
+      "file": "Mari Boine/Modjás Katrin.mp3",
+      "duration": "10:51",
+      "homepage": "http://www.mariboine.no",
+      "wikipedia": "http://en.wikipedia.org/wiki/Mari_Boine",
+      "video": {
+        "title": "Goaskinviellja / Eagle Brother (2009)",
+        "url": "https://www.youtube.com/embed/kprl0CECykA",
+        "width": 640,
+        "height": 480
+      }
+    },
+    {
+      "artist": "Mercan Dede",
+      "album": "Breath (2008)",
+      "albumCover": "Mercan Dede/Breath.jpg",
+      "title": "Napas",
+      "file": "Mercan Dede/Napas.mp3",
+      "duration": "4:23",
+      "homepage": "http://www.mercandede.com",
+      "wikipedia": "http://en.wikipedia.org/wiki/Mercan_Dede",
+      "video": {
+        "title": "Live in Paris",
+        "url": "https://www.youtube.com/embed/cZ3N6FoisAw",
+        "width": 640,
+        "height": 480
+      }
+    },
+    {
+      "artist": "Mick Jagger",
+      "album": "Gotta Get A Grip / England Lost (2017)",
+      "albumCover": "Mick Jagger/Gotta Get A Grip.jpg",
+      "title": "Gotta Get A Grip",
+      "file": "Mick Jagger/Gotta Get A Grip.mp3",
+      "duration": "4:06",
+      "homepage": "http://www.mickjagger.com",
+      "wikipedia": "http://en.wikipedia.org/wiki/Gotta_Get_a_Grip_(Mick_Jagger_song)",
+      "video": {
+        "title": "England Lost (Official Video)",
+        "url": "https://www.youtube.com/embed/98gj0z0RkXE",
+        "width": 640,
+        "height": 480
+      }
+    },
+    {
+      "artist": "Nautilus Pompilius",
+      "album": "Brat 1 (2000)",
+      "albumCover": "Nautilus Pompilius/Brat.jpg",
+      "title": "Vo vremya dojdya",
+      "file": "Nautilus Pompilius/Vo vremya dojdya.mp3",
+      "duration": "3:49",
+      "homepage": "http://www.nautilus.ru/",
+      "wikipedia": "http://en.wikipedia.org/wiki/Nautilus_Pompilius_%28band%29",
+      "video": {
+        "title": "performed by Ju-Piter (2014)",
+        "url": "https://www.youtube.com/embed/Q0G4SlE9hPc",
+        "width": 640,
+        "height": 480
+      }
+    },
+    {
+      "artist": "Niyaz",
+      "album": "Niyaz (2005)",
+      "albumCover": "Niyaz/Niyaz.jpg",
+      "title": "Dunya",
+      "file": "Niyaz/Dunya.mp3",
+      "duration": "5:33",
+      "homepage": "http://www.niyazmusic.com/",
+      "wikipedia": "http://en.wikipedia.org/wiki/Niyaz",
+      "video": {
+        "title": "The Hunt (2013)",
+        "url": "https://www.youtube.com/embed/kII5nCc9W28",
+        "width": 640,
+        "height": 360
+      }
+    },
+    {
+      "artist": "Omar Pene",
+      "album": "Ndam (2009)",
+      "albumCover": "Omar Pene/Ndam.jpg",
+      "title": "Ndam",
+      "file": "Omar Pene/Ndam.mp3",
+      "duration": "3:23",
+      "homepage": "",
+      "wikipedia": "http://en.wikipedia.org/wiki/Omar_Pene",
+      "video": {
+        "title": "Live in Winterthur (2012)",
+        "url": "https://www.youtube.com/embed/h-CI3Bb9CGY",
+        "width": 640,
+        "height": 480
+      }
+    },
+    {
+      "artist": "Peter Fox",
+      "album": "Stadtaffe (2008)",
+      "albumCover": "Peter Fox/Stadtaffe.jpg",
+      "title": "Schwarz zu Blau",
+      "file": "Peter Fox/Schwarz_zu_Blau.mp3",
+      "duration": "3:35",
+      "homepage": "http://www.peterfox.de",
+      "wikipedia": "http://en.wikipedia.org/wiki/Peter_Fox_%28musician%29",
+      "video": {
+        "title": "Lok auf zwei Beinen (2009)",
+        "url": "https://www.youtube.com/embed/362OUej4t7k",
+        "width": 640,
+        "height": 360
+      }
+    },
+    {
+      "artist": "Pink Floyd",
+      "album": "Meddle (1971)",
+      "albumCover": "Pink Floyd/Meddle.jpg",
+      "title": "One of These Days",
+      "file": "Pink Floyd/One of These Days.mp3",
+      "duration": "5:58",
+      "homepage": "http://www.pinkfloyd.com/",
+      "wikipedia": "http://en.wikipedia.org/wiki/Pink_Floyd",
+      "video": {
+        "title": "Live @ Pompeii (1972)",
+        "url": "https://player.vimeo.com/video/179792857",
+        "width": 640,
+        "height": 360
+      }
+    },
+    {
+      "artist": "Rachid Taha",
+      "album": "Zoom (2013)",
+      "albumCover": "Rachid Taha/Made in Medina.jpg",
+      "title": "Barra Barra",
+      "file": "Rachid Taha/Barra Barra.mp3",
+      "duration": "5:46",
+      "homepage": "http://www.rachidtahaofficial.com",
+      "wikipedia": "http://en.wikipedia.org/wiki/Rachid_Taha",
+      "video": {
+        "title": "Ya Rayah (1998)",
+        "url": "https://www.youtube.com/embed/DuPhCmmfKiE",
+        "width": 640,
+        "height": 360
+      }
+    },
+    {
+      "artist": "Rokia Traoré",
+      "album": "Tchamantché (2008)",
+      "albumCover": "Rokia Traoré/Tchamantche.jpg",
+      "title": "Tchamantché",
+      "file": "Rokia Traoré/Tchamantche.mp3",
+      "duration": "4:14",
+      "homepage": "http://www.rokiatraore.net",
+      "wikipedia": "http://en.wikipedia.org/wiki/Rokia_Traor%C3%A9",
+      "video": {
+        "title": "@ The Festival Les Suds in Arles (2013)",
+        "url": "https://www.youtube.com/embed/FrDL6cOXsvw",
+        "width": 640,
+        "height": 360
+      }
+    },
+    {
+      "artist": "Rory Gallagher",
+      "album": "Photo Finish (1978)",
+      "albumCover": "Rory Gallagher/Photo Finish.jpg",
+      "title": "Overnight Bag",
+      "file": "Rory Gallagher/Overnight Bag.mp3",
+      "duration": "4:34",
+      "homepage": "http://www.rorygallagher.com/",
+      "wikipedia": "http://en.wikipedia.org/wiki/Rory_Gallagher",
+      "video": {
+        "title": "Live @ Montreux (1985)",
+        "url": "https://www.youtube.com/embed/RpRTas_wyH0",
+        "width": 640,
+        "height": 360
+      }
+    },
+    {
+      "artist": "Sages comme des sauvages",
+      "album": "Largue la peau (2015)",
+      "albumCover": "Sages comme des sauvages/Largue la peau.jpg",
+      "title": "Lailakomo",
+      "file": "Sages comme des sauvages/Lailakomo.mp3",
+      "duration": "4:30",
+      "homepage": "http://sagescommedessauvages.org/",
+      "wikipedia": "",
+      "video": {
+        "title": "Waio Manman (2013)",
+        "url": "https://www.youtube.com/embed/yykZoDcmW1k",
+        "width": 800,
+        "height": 540
+      }
+    },
+    {
+      "artist": "Schwester S",
+      "album": "S ist soweit (1995)",
+      "albumCover": "Schwester S/S_ist_soweit.jpg",
+      "title": "S ist soweit",
+      "file": "Schwester S/S_ist_soweit.mp3",
+      "duration": "2:55",
+      "homepage": "",
+      "wikipedia": "http://en.wikipedia.org/wiki/Sabrina_Setlur",
+      "video": {
+        "title": "Hier kommt die Schwester (1995)",
+        "url": "https://www.youtube.com/embed/rc3J2jwm1eQ",
+        "width": 640,
+        "height": 360
+      }
+    },
+    {
+      "artist": "Seasick Steve",
+      "album": "Man from Aother Time (2009)",
+      "albumCover": "Seasick Steve/Man from Another Time.jpg",
+      "title": "Never Go West",
+      "file": "Seasick Steve/Never Go West.mp3",
+      "duration": "3:31",
+      "homepage": "http://seasicksteve.com/home/",
+      "wikipedia": "http://en.wikipedia.org/wiki/Seasick_Steve",
+      "video": {
+        "title": "Live @ Glastonbury (2013)",
+        "url": "https://www.youtube.com/embed/-x4n6L4yh7M",
+        "width": 640,
+        "height": 480
+      }
+    },
+    {
+      "artist": "Shantel",
+      "album": "Planet Paprika (2009)",
+      "albumCover": "Shantel/Planet_Paprika.jpg",
+      "title": "Beauties from Athina",
+      "file": "Shantel/Beauties from Athina.mp3",
+      "duration": "3:22",
+      "homepage": "http://www.bucovina.de/",
+      "wikipedia": "http://en.wikipedia.org/wiki/Shantel",
+      "video": {
+        "title": "Live @ Heimatsound Festival (2014)",
+        "url": "https://www.youtube.com/embed/BDdyH_GZnSI",
+        "width": 640,
+        "height": 360
+      }
+    },
+    {
+      "artist": "Stan Ridgway",
+      "album": "The Big Heat (1986)",
+      "albumCover": "Stan Ridgway/The Big Heat.jpg",
+      "title": "Drive, She Said",
+      "file": "Stan Ridgway/Drive She Said.mp3",
+      "duration": "3:22",
+      "homepage": "http://www.stanridgway.com/",
+      "wikipedia": "http://en.wikipedia.org/wiki/Stan_Ridgway",
+      "video": {
+        "title": "Camouflage (1986)",
+        "url": "https://www.youtube.com/embed/ZFYxCIr-Byo",
+        "width": 640,
+        "height": 480
+      }
+    },
+    {
+      "artist": "Televizor",
+      "album": "Deja Vu (2009)",
+      "albumCover": "Televizor/DejaVu.jpg",
+      "title": "Gazprombeiter",
+      "file": "Televizor/Gazprombeiter.mp3",
+      "duration": "5:06",
+      "homepage": "http://www.televizorr.com/",
+      "wikipedia": "http://en.wikipedia.org/wiki/Televizor",
+      "video": {
+        "title": "Zakolotite podval (2009)",
+        "url": "https://www.youtube.com/embed/OQl1ET4QW0A",
+        "width": 640,
+        "height": 360
+      }
+    },
+    {
+      "artist": "Tinariwen",
+      "album": "Tassili (2011)",
+      "albumCover": "Tinariwen/Tassili.jpg",
+      "title": "Imidiwan Ma Tennam",
+      "file": "Tinariwen/Imidiwan Ma Tennam.mp3",
+      "duration": "4:39",
+      "homepage": "http://www.tinariwen.com",
+      "wikipedia": "http://en.wikipedia.org/wiki/Tinariwen",
+      "video": {
+        "title": "Live at Womad (2004)",
+        "url": "https://www.youtube.com/embed/uUS0-0Fv7c8",
+        "width": 640,
+        "height": 360
+      }
+    },
+    {
+      "artist": "Trombone Shorty",
+      "album": "Backatown (2010)",
+      "albumCover": "Trombone Shorty/Backatown.jpg",
+      "title": "Neph",
+      "file": "Trombone Shorty/Neph.mp3",
+      "duration": "3:02",
+      "homepage": "http://www.tromboneshorty.com",
+      "wikipedia": "http://en.wikipedia.org/wiki/Trombone_Shorty",
+      "video": {
+        "title": "Backatown /Suburbia (2011)",
+        "url": "https://www.youtube.com/embed/1yRhacGLGEs",
+        "width": 640,
+        "height": 360
+      }
+    },
+    {
+      "artist": "Undervud",
+      "album": "Bablo pobezhdaet zlo (2005)",
+      "albumCover": "Undervud/Bablo pobezhdaet zlo.jpg",
+      "title": "Bablo pobezhdaet zlo",
+      "file": "Undervud/Bablo pobezhdaet zlo.mp3",
+      "duration": "3:49",
+      "homepage": "http://www.undervud.ru",
+      "wikipedia": "http://en.wikipedia.org/wiki/Undervud",
+      "video": {
+        "title": "Платье В Горошек (2012)",
+        "url": "https://www.youtube.com/embed/VjSPbrlhpnU",
+        "width": 640,
+        "height": 360
+      }
+    },
+    {
+      "artist": "Valravn",
+      "album": "Valravn (2007)",
+      "albumCover": "Valravn/Valravn.jpg",
+      "title": "Vallevan",
+      "file": "Valravn/Vallevan.mp3",
+      "duration": "3:57",
+      "homepage": "http://www.valravn.net",
+      "wikipedia": "http://de.wikipedia.org/wiki/Valravn",
+      "video": {
+        "title": "Kelling (2010)",
+        "url": "https://www.youtube.com/embed/H1IETU9TOtw",
+        "width": 640,
+        "height": 360
+      }
+    },
+    {
+      "artist": "Värttinä",
+      "album": "Ilmatar (2000)",
+      "albumCover": "Värttinä/Ilmatar.jpg",
+      "title": "Liigua",
+      "file": "Värttinä/Liigua.mp3",
+      "duration": "5:04",
+      "homepage": "http://varttina.com",
+      "wikipedia": "http://en.wikipedia.org/wiki/V%C3%A4rttin%C3%A4",
+      "video": {
+        "title": "Äijö (2013)",
+        "url": "https://www.youtube.com/embed/9nd8psDOtMw",
+        "width": 640,
+        "height": 360
+      }
+    },
+    {
+      "artist": "Weather Report",
+      "album": "Black Market (1976)",
+      "albumCover": "Weather Report/Black Market.jpg",
+      "title": "Gibraltar",
+      "file": "Weather Report/Gibraltar.mp3",
+      "duration": "7:48",
+      "homepage": "",
+      "wikipedia": "http://en.wikipedia.org/wiki/Weather_Report",
+      "video": {
+        "title": "Live @ Berliner Jazztage (1975)",
+        "url": "https://www.youtube.com/embed/Q850QrYTviw",
+        "width": 640,
+        "height": 480
+      }
+    },
+    {
+      "artist": "Working Week",
+      "album": "Working Nights (1985)",
+      "albumCover": "Working Week/Working Nights.jpg",
+      "title": "Thought I'd never see you again",
+      "file": "Working Week/Thought I'd Never See You Again.mp3",
+      "duration": "6:24",
+      "homepage": "",
+      "wikipedia": "http://en.wikipedia.org/wiki/Working_Week_%28band%29",
+      "video": {
+        "title": "Inner City Blues - Live (1985)",
+        "url": "https://www.youtube.com/embed/H5mtH3_439s",
+        "width": 640,
+        "height": 480
+      }
+    },
+    {
+      "artist": "Yat-Kha",
+      "album": "tuva.rock (2003)",
+      "albumCover": "Yat-Kha/Tuva_Rock.jpg",
+      "title": "Come Along",
+      "file": "Yat-Kha/Come_Along.mp3",
+      "duration": "2:49",
+      "homepage": "http://www.yat-kha.ru/en/",
+      "wikipedia": "http://en.wikipedia.org/wiki/Yat-Kha",
+      "video": {
+        "title": "Uzhur-La Bar (2004)",
+        "url": "https://www.youtube.com/embed/iMLEtpTTUFQ",
+        "width": 640,
+        "height": 480
+      }
+    }
+  ]
+}
