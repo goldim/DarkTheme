@@ -18,11 +18,11 @@
     },
     {
       "library_name": "themedemo",
-      "library_version": "1.0.1",
-      "path": "qx_packages/goldim_scro34_themedemo_v1_0_1",
+      "library_version": "1.0.3",
+      "path": "qx_packages/goldim_scro34_themedemo_v1_0_3",
       "uri": "goldim/scro34.themedemo",
       "repo_name": "goldim/scro34.themedemo",
-      "repo_tag": "v1.0.1"
+      "repo_tag": "v1.0.3"
     },
     {
       "library_name": "widgetbrowser",
